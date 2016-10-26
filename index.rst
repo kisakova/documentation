@@ -1,74 +1,52 @@
-The OroPlatform Documentation
-==============================
-
-The Book
---------
-
-Overview of Platform architecture, design and key features.
-This section will help to understand better platform design and technical details.
 
 .. toctree::
-    :maxdepth: 2
-
-    book/index
-
-
-The Cookbook
-------------
-
-Developer guidance to specific features and implementations, collection of "How to" articles that allow
-to achieve result in quick and right way without going deep into technical details.
-
-.. toctree::
-    :maxdepth: 2
-
-    cookbook/index
-
-
-The Oro Bundles
----------------
-
-Learn more about all the bundles that are available from the bundles section:
-
-.. toctree::
-
-    /bundles
-
-
-User Guide
-----------
-
-End user oriented documentation that explains how to administer and configure platform features.
-
-.. toctree::
-    :maxdepth: 2
-
+    overview
     user_guide/index
-
-
-Community Guide
----------------
-
-Learn about our development process and how you can contribute to OroPlatform.
-
-.. toctree::
-    :maxdepth: 1
-
+    admin_guide/index
+    dev_guide/index
+    book/index
+    cookbook/index
+    shared/index
     community/index
-
-
-Reference
----------
-
-.. toctree::
-    :maxdepth: 2
-
     reference/index
+    sysystem_requirements
+    solutions
 
+    :maxdepth: 3
 
-System Requirements
--------------------
-
-.. toctree::
-
-    /system_requirements
+.. COMMENT
+    .. include:: overview.rst
+    .. COMMENT <The following section provide brief overview of the system, including navigation and quick links for roles (buyer/buyer's account     mngr/admin/sales/cataog manager> test test
+    ---Oro Guides---
+    .. include:: user_guide/index.rst
+    .. include:: admin_guide/index.rst
+    .. include:: dev_guide/index.rst
+    .. COMMENT Information for developers: API reference, customisation advice, and best practices.
+    ---Oro Books---
+    .. COMMENT Overview of OroCommerce architecture, design and key features.
+   
+    .. include:: book/index.rst
+    
+    .. COMMENT Collection of "How to" articles that help you master complex tasks without much experience with OroCommerce.
+    
+    .. include:: cookbook/index.rst
+    
+    
+    .. include:: shared/bundles.rst
+    
+    .. COMMENT Detailed information about the bundles that come with OroCommerce, OroCRM, and OroPlatform.
+    .. COMMENT Information about Oro development process and how you can contribute to OroCommerce, OroCRM and OroPlatform solutions.
+    
+    ---OroPlatform (common components)---
+    
+    .. include:: shared/components.rst
+    
+    .. include:: community/index.rst
+    
+    .. include:: reference/index.rst
+    
+    .. include:: system_requirements.rst
+    
+    ---Oro Solutions---
+    
+    .. include:: solutions.rst
