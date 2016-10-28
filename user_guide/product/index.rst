@@ -1,6 +1,11 @@
 Manage your product catalog
 ===========================
 
+.. toctree::
+
+	managing_product_visibility
+
+
 Product information management
 ------------------------------
 

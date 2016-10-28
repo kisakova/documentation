@@ -29,7 +29,6 @@ Future structure:
         * Create a payment integration
         * Working with OroCommerce API
         * Theming
-        * ....
     * Support
         * Online documentation, tutorials and videos
         * On-demand training

@@ -264,9 +264,6 @@ product_tax_code
 Linking a tax code with a product
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Managing Tax Rules
-~~~~~~~~~~~~~~~~~~
-
 Viewing tax rules
 ^^^^^^^^^^^^^^^^^
 

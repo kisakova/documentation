@@ -20,7 +20,7 @@
 
     reference/index
 
-    system_requirements
+    shared/system_requirements
 
     solutions
 
