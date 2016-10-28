@@ -1,4 +1,6 @@
 Support
+=======
+
       * Online documentation, feature videos
       * On-demand training
       * How to contact us

@@ -1,4 +1,6 @@
 Customers
+=========
+
       * Customer accounts
       * Managing users
       * Roles and permissions

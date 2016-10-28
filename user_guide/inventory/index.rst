@@ -1,4 +1,6 @@
 Inventory
+=========
+
       * Overview
       * Configuration options
       * Product-level configuration

@@ -1,4 +1,6 @@
 Payment
+=======
+
       * Enabling payment methods
       * Configure payment rules
       * Payment terms

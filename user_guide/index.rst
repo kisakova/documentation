@@ -2,19 +2,33 @@ OroCommerce User Guide
 ======================
 
 .. toctree::
-    install/index
-    product/index
-    inventory/index
-    pricing/index
-    customers/index
-    quotesNProposals/index
-    orders/index
-    payment/index
-    shipping/index
-    marketing/index
-    taxes/index
-    support/index
-    :depth: 3
+   :maxdepth: 3
+
+   install/index
+
+   gettingStarted/index
+
+   product/index
+
+   inventory/index
+
+   pricing/index
+
+   customer/index
+
+   quotesNProposals/index
+
+   orders/index
+
+   payment/index
+
+   shipping/index
+
+   marketing/index
+
+   taxes/index
+
+   support/index
 
 The OroCommerce User Guide introduces core capabilities of the OroCommerce application and provides detailed guidance on the UI and actions available to you after you log into the the application. Depending on your role in the OroCommerce and custom system permissions, the actions may vary. 
 
@@ -30,27 +44,8 @@ For an overview of the installation and configuration, see :ref:`Installation <o
 
 For detailed information on using OroCommerce, please see the following topics:
 
-.. include:: product/index.rst
-
-.. include:: inventory/index.rst
-
-.. include:: pricing/index.rst
-
-.. include:: customers/index.rst
-
-.. include:: quotesNProposals/index.rst
-
-.. include:: orders/index.rst
-
-.. include:: payment/index.rst
-
-.. include:: shipping/index.rst
-
-.. include:: marketing/index.rst
-
-.. include:: taxes/index.rst
-
-.. include:: support/index.rst
+.. contents:: :local:
+    :depth: 1
 
 .. _as a buyer: http://
 .. _as a sales person: http://

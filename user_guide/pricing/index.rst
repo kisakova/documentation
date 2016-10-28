@@ -1,4 +1,6 @@
 Pricing
+=======
+
       * Overview
       * Configure prices for a website, customer group, customer
       * Scheduling

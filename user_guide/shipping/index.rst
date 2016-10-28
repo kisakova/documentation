@@ -1,4 +1,6 @@
 Shipping
+========
+
       * Enabling shipping methods
       * Configure shipping rules
       * Product shipping attributes

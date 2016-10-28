@@ -20,7 +20,7 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 | ActionBundle                        | None.                                                                                |                                                                              |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ActivityBundle                      | Assign activities (such as calls,                                                    | * `ActivityBundle`_,                                                         |
-|                                     | emails and tasks) to other entities.                                                 | * User guide: :doc:`/user_guide/user_management_users`                       |
+|                                     | emails and tasks) to other entities.                                                 | * User guide: :doc:`../user_guide/user_management_users`                     |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ActivityListBundle                  | The bundle provides methods to show                                                  | * `ActivityListBundle`_                                                      |
 |                                     | all activities in one widget.                                                        |                                                                              |

@@ -39,3 +39,5 @@ Landing pages & embedding product info & add to card
 
 Product visibility
 ------------------
+
+.. include:: managing_product_visibility.rst

@@ -1,4 +1,6 @@
 Order Management
+================
+
       * Editing an order
       * Default order workflow (management console)
       * Default order workflow (store frontend)

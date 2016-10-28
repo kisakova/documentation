@@ -1,18 +1,28 @@
 
 .. toctree::
-    overview
-    user_guide/index
-    admin_guide/index
-    dev_guide/index
-    book/index
-    cookbook/index
-    shared/index
-    community/index
-    reference/index
-    sysystem_requirements
-    solutions
+    :maxdepth: 4
 
-    :maxdepth: 3
+    overview
+    
+    user_guide/index
+
+    admin_guide/index
+
+    dev_guide/index
+
+    book/index
+
+    cookbook/index
+
+    shared/index
+
+    community/index
+
+    reference/index
+
+    system_requirements
+
+    solutions
 
 .. COMMENT
     .. include:: overview.rst

@@ -1,6 +1,5 @@
-***************************
 Managing product visibility
-***************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 While *a product* on *a website* for *a customer* can be either *visible* or *hidden*, the way OroCommerce evaluates the product visibility might seem tricky.
 
@@ -52,7 +51,7 @@ You can define a system-wide products and categories visibility for customers of
  
 Products and categories are visible by default. To change this, navigate to system configuration by opening **System > Configuration > Commerce > Account > Visibility**, untick 'Use default' and toggle the options (hidden/shown).
 
-.. image:: ./img/systemConfProductVisibility.png
+.. image:: ./img/productVisibility/systemConfProductVisibility.png
    :align: center
 
 Visibility to All
@@ -70,7 +69,7 @@ Possible options are:
 
 These values may be later inherited or enforced by visibility for accounts and account groups set to 'product' or 'category'.
 
-.. image:: ./img/visibilityToAll.png
+.. image:: ./img/productVisibility/visibilityToAll.png
   :align: center
 
 Direct settings
@@ -88,7 +87,7 @@ You can control if the product or category is shown to the customers who are mem
 
 By default, the new account group inherits the default product visibility from the product or category (depending on where the configuration happens).
 
-  .. image:: ./img/visibilityToAccountGroups.png
+  .. image:: ./img/productVisibility/visibilityToAccountGroups.png
     :align: center
 
 Visibility to Account
@@ -96,7 +95,7 @@ Visibility to Account
 
 Visibility to the account supports same options as `Visibility to Account Group`_ and can also inherit the configuration for account group (by default).
 
-  .. image:: ./img/visibilityToAccounts.png
+  .. image:: ./img/productVisibility/visibilityToAccounts.png
     :align: center
 
 Visibility on the Website
@@ -106,7 +105,7 @@ Every product can have customized visibility for the particular website. This mi
 
 On the product visibility page, you can switch between the websites and apply the necessary changes. 
 
-.. image:: ./img/prodVisibility.png
+.. image:: ./img/productVisibility/prodVisibility.png
   :align: center
 
 For new websites, the following default settings apply:
