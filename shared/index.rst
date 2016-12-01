@@ -2,7 +2,8 @@ Oro Platform Common
 ===================
 
 .. toctree::
-	components
+   customizing-import-export
+   components
 
 .. include bundles.rst
 

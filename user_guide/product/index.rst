@@ -3,10 +3,22 @@ Manage your product catalog
 
 .. toctree::
 
-	managing_product_visibility
+	Organize Products Into Categories In Master Catalog <../../completeReference/Products/MasterCatalog/index>
+
+	products_create
+
+	../../completeReference/commonActions/import-products
+
+	../../completeReference/Products/Products/managing-product-visibility
+
+	../../completeReference/Products/PriceAttributes/index
+
+	managing_product_taxation
 
 
-Product information management
+Plan your catalog (categories, subcategories).
+
+Product Information Management
 ------------------------------
 
 Product media (images)
@@ -18,8 +30,8 @@ Product attributes
 Attribute Sets
 ^^^^^^^^^^^^^^
 
-Price attributes
-^^^^^^^^^^^^^^^^
+DRAFTED: Price attributes
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Units of quantity
 -----------------
@@ -27,8 +39,8 @@ Units of quantity
 Master catalog
 --------------
 
-Export/import product data
---------------------------
+DRAFTED: Export/import product data
+-----------------------------------
 
 Product variants
 ----------------
@@ -42,7 +54,4 @@ Web categories
 Landing pages & embedding product info & add to card
 ----------------------------------------------------
 
-Product visibility
-------------------
 
-.. include:: managing_product_visibility.rst

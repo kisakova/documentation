@@ -1,9 +1,17 @@
 Customers
 =========
 
-      * Customer accounts
-      * Managing users
-      * Roles and permissions
-      * Account hierarchy
-      * Customer groups
-      * Delegate account management to customers
+.. toctree::
+   :maxdepth: 1
+
+   customers
+
+   customer-groups
+
+   customer-users
+
+   customer-roles-and-permissions
+
+   customer-hierarchy
+
+   delegating-account-management-to-customers

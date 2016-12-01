@@ -6,3 +6,8 @@ Support
       * How to contact us
       * Refer to partners page
       * OroCloud customers
+        
+
+.. toctree::
+   
+   write.rst

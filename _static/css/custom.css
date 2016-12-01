@@ -1,0 +1,25 @@
+.with-border{
+    border-color: #e1e3e8 ;
+    border-style: solid ;
+    border-width: 1px ;
+}
+
+.icon {
+
+	font: FontAwesome;
+}
+
+.animation {
+    
+}
+
+.scroll-table {
+   width: 100%;
+   overflow-x: scroll;
+}
+
+.large-table {
+   table-layout: auto;
+   white-space: nowrap;
+   width: 100%;
+}

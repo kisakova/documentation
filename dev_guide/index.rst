@@ -1,6 +1,14 @@
 OroCommerce Developer Guide
 ===========================
 
+.. toctree::
+
+    customizing-crud
+
+    customizing-data-grid-in-orocommerce
+
+    using-php-instead-of-twig-for-templates
+
 .. note:: Content is temporary unavailable due to severe maintenance works. Sorry for inconvenience.
 
 Future structure:
@@ -34,3 +42,8 @@ Future structure:
         * On-demand training
         * Contact us and partners
         * OroCloud customers
+          
+
+Potentially useful topics:
+
+composer: vendor docs + http://www.masterzendframework.com/series/tooling/composer/command-line-essentials/

@@ -1,5 +1,5 @@
-OroCommerce Administrator Guide
-===============================
+Administrator Guide
+===================
 
 .. note:: Content is temporary unavailable due to severe maintenance works. Sorry for inconvenience.
 

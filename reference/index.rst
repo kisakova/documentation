@@ -1,2 +1,0 @@
-Oro Reference Guide
-===================
