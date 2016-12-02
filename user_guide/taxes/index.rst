@@ -28,4 +28,4 @@ Tax Management
 
    ../../completeReference/Taxes/international-taxes-overview
    
-   Taxes in the customer order <../../buyer_guide/taxes>
+   Taxes in the customer order <../../guides_by_role/buyer_guide/taxes>

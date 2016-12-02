@@ -42,7 +42,7 @@ Here is a short checklist that will help you plan and control your OroCommerce r
 1. Prepare OroCommerce store:
 
     - Install and set up OroCommerce in production mode with demo data disabled. 
-    - Build a product catalog (`organize products into categories <../completeReference/Products/MasterCatalog/index.html>`_ and :ref:`add product information manually <products_create>` or using `bulk import <../completeReference/commonActions/import-products.html>`_).
+    - Build a product catalog (`organize products into categories </completeReference/Products/MasterCatalog/index.html>` and :ref:`add product information manually <products_create>` or using `bulk import </completeReference/commonActions/Products/Product/import_products.html>`_).
     - Set up inventory and warehouses for your international selling services.
     - Create dedicated OroCommerce websites for locations or product lines you'd like to separate from the global store. 
     - Create global default price list to set the product prices shown in your OroCommerce store. 

@@ -14,8 +14,6 @@ Sample file structure:
 
 .. code-block:: none
 
-    source
-
     user_guide:
         img:
             Demo.png

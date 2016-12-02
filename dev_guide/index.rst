@@ -1,5 +1,5 @@
-OroCommerce Developer Guide
-===========================
+Developer Guide
+===============
 
 .. toctree::
 

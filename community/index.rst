@@ -1,2 +1,2 @@
-Community Guide
-===============
+Oro Community Guide
+===================

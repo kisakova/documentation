@@ -6,19 +6,11 @@
 
     user_guide/index
 
-    buyer_guide/index
-
-    sales_guide/index
-
-    org_admin_guide/index
-
-    catalog_manager_guide/index
-
-    config_guide/index
-
     admin_guide/index
 
     dev_guide/index
+
+    guides_by_role/index
 
     completeReference/index
 
@@ -35,7 +27,3 @@
     solutions
 
     system_requirements
-
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/jCvO3eJlJw8" frameborder="0" allowfullscreen></iframe>

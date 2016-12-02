@@ -18,6 +18,7 @@ Manage your product catalog
 
 Plan your catalog (categories, subcategories).
 
+
 Product Information Management
 ------------------------------
 

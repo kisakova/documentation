@@ -1,5 +1,5 @@
-Complete Reference Guide
-========================
+Reference Guide
+===============
 
 .. include:: /completeReference/overview/indexOverview.rst
   :start-after: begin
