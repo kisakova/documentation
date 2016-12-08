@@ -7,3 +7,9 @@ Entities System Configuration
 .. toctree::
 
    entity_management
+
+   entities
+
+   entity_fields
+
+   ../../Advanced/dataManagement/index

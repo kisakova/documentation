@@ -1,5 +1,7 @@
-Viewing and filtering all Manage Integrations
----------------------------------------------
+Adding Custom Integration
+-------------------------
+
+.. warning:: Rework.
 
 To view all Manage Integrations, navigate to **System > Manage Integrations** in the main menu.
 

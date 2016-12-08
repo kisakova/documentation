@@ -5,6 +5,7 @@ System
   :start-after: begin
 
 .. toctree::
+   :titlesonly:
 
    Configuration/index
 
@@ -43,7 +44,5 @@ System
    system_information
 
    websites
-
-   rfq_statuses
 
    Localization/index

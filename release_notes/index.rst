@@ -1,4 +1,4 @@
-Release notes
+Release Notes
 =============
 
 This topic contains information about following OroCommerce releases:
@@ -10,3 +10,5 @@ This topic contains information about following OroCommerce releases:
    beta3
    
    beta4
+
+.. TODO: version history (w/dates and brief notes)

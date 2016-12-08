@@ -1,18 +1,31 @@
-Integration System Configuration
---------------------------------
+Integrations: Third-Party Software and OroCommerce Embedded Forms
+=================================================================
 
-To view all Integrations, navigate to **System > Integrations** in the main menu.
+Intergations in OroCommerce fall into two groups:
 
-Preview:
+* Integration with third-party software, like UPS and Google, that unlock additional capabilities (e.g. new shipping service options, single sign-on). 
 
-.. include:: /completeReference/overview/System/IntegrationsOverview.rst
+* Integrating OroCommerce call-home code into the third-party web applications and websites. 
+
+.. include:: /completeReference/overview/System/Configuration/Integrations/IntegrationsOverview.rst
   :start-after: begin
 
+For more information on integration configuration please see the following topics:
+
 .. toctree::
+   :maxdepth: 1
 
-   manage_integrations
+    ../Configuration/Integrations/google_single_sign_on
 
-   embedded_forms
+    ../Configuration/Integrations/ms_exchange_integration
+
+    ups_integration
+
+    manage_integrations
+
+    embedded_forms
+
+.. TODO: fix the remaining part
 
 .. image:: /completeReference/img/System/Integrations/Integrations.png
    :class: with-border

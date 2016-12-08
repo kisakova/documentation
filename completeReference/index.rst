@@ -28,4 +28,8 @@ Reference Guide
 
    commonActions/index
 
+   gettingStarted/index
+
+   Advanced/index
+
    glossary
