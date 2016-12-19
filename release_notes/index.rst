@@ -11,4 +11,8 @@ This topic contains information about following OroCommerce releases:
    
    beta4
 
+   beta5
+
+   release_process
+
 .. TODO: version history (w/dates and brief notes)
