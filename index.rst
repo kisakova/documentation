@@ -17,7 +17,7 @@ Enjoy every moment of using OroCommerce! OroCommerce documenation, hand in hand 
         </colgroup>
         <tbody valign="top">
             <tr haligh="center" class="row-even">
-                <td style='text-align:center;vertical-align:bottom' ><a href="./user_guide/gettingStarted/index.html"><img alt="_images/home.png" src="_images/home.png" style="width:60px;"><br><b>Getting Started</b></a></td>
+                <td style='text-align:center;vertical-align:bottom' ><a href="./user_guide/gettingStarted/index.html"><img alt="_images/home.png" src="/_images/home.png" style="width:60px;"><br><b>Getting Started</b></a></td>
                 <td style='text-align:center;vertical-align:bottom' ><a href="./guides_by_role/config_guide/index.html"><img alt="_images/user.png" src="_images/arrow.png" style="width:60px;"><br><b>Installation Guide</b></a></td>
                 <td style='text-align:center;vertical-align:bottom' ><a href="./admin_guide/index.html"><img alt="_images/gear.png" src="_images/puzzle.png" style="width:60px;"><br><b>Configuration Guide</b></a></td>
             </tr>
@@ -36,9 +36,9 @@ Enjoy every moment of using OroCommerce! OroCommerce documenation, hand in hand 
         </colgroup>
         <tbody valign="top">
             <tr haligh="center" class="row-odd">
-                <td style='text-align:center;vertical-align:bottom' ><a href="./user_guide/index.html"><img alt="_images/user.png" src="_images/user.png" style="width:60px;"><br><b>User Guide</b></a></td>
-                <td style='text-align:center;vertical-align:bottombottom' ><a href="./admin_guide/index.html"><img alt="_images/gear.png" src="_images/gear.png" style="width:60px;"><br><b>Administrator Guide</b></a></td>
-                <td style='text-align:center;vertical-align:bottom' ><a href="./dev_guide/index.html"><img alt="_images/home.png" src="_images/lab.png" style="width:60px;"><br><b>Developer Guide</b></a></td>
+                <td style='text-align:center;vertical-align:bottom' ><a href="./user_guide/index.html"><img alt="_images/user.png" src="./_images/user.png" style="width:60px;"><br><b>User Guide</b></a></td>
+                <td style='text-align:center;vertical-align:bottombottom' ><a href="./admin_guide/index.html"><img alt="_images/gear.png" src="./_images/gear.png" style="width:60px;"><br><b>Administrator Guide</b></a></td>
+                <td style='text-align:center;vertical-align:bottom' ><a href="./dev_guide/index.html"><img alt="_images/home.png" src="./_images/lab.png" style="width:60px;"><br><b>Developer Guide</b></a></td>
             </tr>
         </tbody>
     </table>
