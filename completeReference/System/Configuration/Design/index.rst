@@ -1,0 +1,6 @@
+Configuring Design
+==================
+
+.. toctree::
+
+   theme

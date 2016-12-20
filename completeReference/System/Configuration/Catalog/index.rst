@@ -1,0 +1,9 @@
+Configuring Catalog
+===================
+
+
+
+.. toctree::
+
+   pricing
+

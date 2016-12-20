@@ -3,9 +3,9 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = /usr/local/bin/sphinx-build
+SPHINXBUILD   = sphinx-build
 PAPER         =
-BUILDDIR      = ~/github/dev/documentation/commerce/_build
+BUILDDIR      = _build
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4

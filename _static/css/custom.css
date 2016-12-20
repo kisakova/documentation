@@ -1,23 +1,8 @@
-@impport font-awesome-4.7.0/css/font-awesone.css
-
-@impport font-awesome-4.7.0/css/font-awesone.min.css
-
 .with-border{
     border-color: #e1e3e8 ;
     border-style: solid ;
     border-width: 1px ;
 }
-
-.no-border{
-    border-width: 0px ;
-    width: 100%;
-}
-
-table.landing {
-    border: medium none;
-    box-shadow: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
 
 .icon {
 
@@ -37,8 +22,4 @@ table.landing {
    table-layout: auto;
    white-space: nowrap;
    width: 100%;
-}
-
-div.relations {
-	display: inline;
 }

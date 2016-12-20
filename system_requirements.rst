@@ -1,0 +1,1 @@
+.. include:: shared/system_requirements.rst
