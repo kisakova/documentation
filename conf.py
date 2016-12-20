@@ -33,7 +33,7 @@ from pygments.lexers.web import PhpLexer
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 # https://github.com/nyergler/hieroglyph
 #https://pypi.python.org/pypi/sphinxcontrib-images
-extensions = ['sensio.sphinx.configurationblock', 'sensio.sphinx.phpcode']
+extensions = ['sensio.sphinx.configurationblock', 'sphinxcontrib.images', 'sensio.sphinx.phpcode', 'sphinx.ext.autosectionlabel']
 
 # set url for API links
 api_url = 'http://phpdoc.orocrm.com/platform/%s'
@@ -120,7 +120,9 @@ html_theme = 'alabaster'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+'fixed_sidebar': False,
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -155,8 +157,10 @@ html_static_path = ['_static']
 #html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
-#html_sidebars = {}
-
+html_sidebars = {
+   '**': ['globaltoc.html', 'sourcelink.html', 'relations.html', 'searchbox.html'],
+   'using/windows': ['windowssidebar.html', 'relations.html', 'searchbox.html'],
+}
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
 #html_additional_pages = {}
