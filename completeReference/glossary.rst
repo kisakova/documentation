@@ -38,6 +38,17 @@ Glossary
    System 
       :term:`OroCommerce`
    
+   Website
+
+      In :term:`OroCommerce`, website is OroCommerce customer-facing interface (web store). OroCommerce Enterprise supports multiple websites (web stores) that are attached to the same store administration and configuration interface. Every website may have unique product lines, localizaion and internationalization settings, prices, etc.
+
+
+   Channel
+      In :term:`OroCRM`, channel represent a source of customers and customer data, for example a specific shop, outlet, web-store, fund, etc.
+
+   Account
+      In :term:`OroCRM`, account represent a person, company or group of people you do business activities with. Account aggregates details of all the :term:`customer identities <Customer Identity>` assigned to it, providing for a 360-degree view of the customer activity.  
+
    OroCommerce
       An easy-to-use, open source B2B Commerce solution with built in sales interaction tools for a commerce business.
 
@@ -79,7 +90,7 @@ Glossary
       An :term:`field <Field>` added to an entity by a user from the UI.
 
    Order
-      A system :term:`entity <Entity>`. Its :term:`records <Record>` represent actual Magento order
+      Order contains information about the buyer's shopping list submitted for purchase and the collected information about billing and shipping address, payment method, etc.
 
    Organization
       The highest level of the system permissions grouping. Different roles and permission settings 
@@ -105,7 +116,10 @@ Glossary
    Owner
       An :term:`organization <Organization>` or :term:`business unit <Business Unit>`, members whereof can view/process
       the entity records, or a :term:`user <User>`, who can view/process the entity records, subject to the  
-      `access and permission settings </completeReference/System/UserManagement/index.html>`_.
+      `access and permission settings </completeReference/System/UserManagement>`_.
 
    Context
        A set of :term:`records <Record>` related to a certain email.   
+
+   Payment Term
+       A Payment Term describes the conditions under which a seller will complete a sale (e.g. the period allowed to a buyer to pay off the amount due).

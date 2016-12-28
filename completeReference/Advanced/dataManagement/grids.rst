@@ -17,9 +17,8 @@ For example, you can open a grid of all the Contacts.
 In this example, you can immediately see some major details of our contacts, such as their first and last names, email, 
 phone number, etc.
 
-You can adjust and save grid views, update and delete grid records, get to the 
-`Edit forms <../../../completeReference/Advanced/dataManagement/form.html>`_ and `View pages <view.html>`_ 
-of any record on the grid, and even export all the data in the grid as a .csv file.
+You can adjust and save filters, update and delete records, 
+`edit <../../../completeReference/Advanced/dataManagement/form.html>`_ and `view`_ records, and export all records as a .csv file.
 
 Getting to a Grid
 -----------------
@@ -33,8 +32,11 @@ There are several ways to get to a grid.
   
 - Find it in the :ref:`Shortcuts <user-guide-getting-started-shortcuts>`.
 
-- Click the grid link on the `View page <view.html>`_ 
-  or `Create/Edit form <../../../completeReference/Advanced/dataManagement/form.html>`_ of a record. 
+- Click "All ..." (e.g. All Prodcuts) link `viewing`_, `creating or editing <../../../completeReference/Advanced/dataManagement/form.html>`_ a record. 
+
+.. _view: view.html
+
+.. _viewing: view.html
 
 |
 
@@ -44,8 +46,7 @@ There are several ways to get to a grid.
 
 .. hint::
 
-    If you have reached a View page or Create/Edit form from a grid, and now click  link to get back to the grid, it 
-    will look identical to when you left it (the same filters and order will still be applied).   
+    OroCommerce preserves the filters and column visibility adjustments on the All items page (e.g. All Products). You navigate from the item list to the item details and then back and stil have your custom setup.
 
 .. _user-guide-ui-components-grids-adjust:    
 
@@ -250,15 +251,15 @@ If permitted, you can delete records.
 
 |
 
-In the same manner, you can merge several records (if the corresponding :ref:`capabiltiy <admin-capabilities-merge>` has 
-been enabled). Currently, merge can only be done for  :ref:`accounts <user-guide-accounts>`.
+In the same manner, you can merge several records (if the corresponding capabiltiy has 
+been enabled). Currently, merge can only be done for  accounts.
 
 
 Get to View Page and Edit Forms from a Grid
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If permitted, you can get to the `View Page <../../../completeReference/Advanced/data_management/view.html>`_ or 
-`Edit form <../../../completeReference/Advanced/dataManagement/form.html>`_ of any record in the grid.
+If permitted, you can `view`_ or 
+`edit <../../../completeReference/Advanced/dataManagement/form.html>`_ any record in the grid.
  
 
 To get to the *"Edit"* page, hover the cursor over the action buttons (the last column) and click |IcEdit|.  
@@ -303,3 +304,4 @@ The file will be saved in compliance with your browser settings.
    
 .. |BReset| image:: /completeReference/img/common/buttons/BReset.png
    :align: middle
+

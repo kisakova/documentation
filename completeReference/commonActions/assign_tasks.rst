@@ -22,8 +22,8 @@ There are several ways to create a task:
 Add a Task for Another Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The *Add Task* action will be available for records of entities with "Tasks" activity 
-:ref:`enabled <user-guide-activities-enable>`.
+The *Add Task* action will be available for records of entities with "Tasks" activity enabled in the 
+`entity settings <../System/Entities/entity>`_.
 
 1. Open the View page of a record the task is related to.
 
@@ -180,10 +180,7 @@ Click on the task in the calendar to get to its information tab. Use the buttons
 
 .. note::
   
-    The tasks can also be mapped to the Outlook account as described in the corresponding 
-    :ref:`section <outlook-calendar-mapping>` of the 
-    :ref:`Synchronization with Outlook guide <user-guide-synch-outlook>`.
-
+    The tasks can also be mapped to the Outlook account as described in the `Synchronization with Outlook <../System/Configuration/Integrations/ms-exchnage.html>`_ section.
 
 .. |IcDelete| image:: /completeReference/img/common/buttons/IcDelete.png
    :align: middle

@@ -1,17 +1,25 @@
-Creating Product Tax Codes
---------------------------
+Create a Product Tax Code
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To create a new Product Tax Codes, navigate to **Taxes > Product Tax Codes** in the main menu and click **Create Product Tax Codes**.
+To create a new Product Tax Code:
 
-Preview:
+#. Navigate to **Taxes > Product Tax Codes** in the main menu.
 
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/ProductTaxCodesCreate.png
-   :class: with-border
+#. Click **Create Product Tax Codes**.
+   The following page opens:
 
-You can perform the following actions at the Product Tax CodesCreate page:
+   .. image:: /completeReference/img/Taxes/ProductTaxCodes/CreateProductTaxCode_ProductTaxCodes_Taxes.png
+      :class: with-border
 
- * Cancel
+#. Fill in **Code** and **Description** with information about the Product Tax Code you are creating.
 
- * Save And Close
+#. Click **Save** on the top right of the page.
+   
 
+The new Product Tax Code is created.
 
+**Next steps**
+
+Link the tax code to `a product <../link-a-tax-code-to-a-product.html>`_ and `create a tax rule <../TaxRules/create.html>`_ that associates the product tax code with the tax rate or tax exemption (zero rate).
+
+.. finish

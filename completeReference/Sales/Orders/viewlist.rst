@@ -60,6 +60,8 @@ You can perform the following actions with every item in the Orders list:
 
  * View
 
+ * Filter
+
 
 You can perform the following actions at the Orders page:
 

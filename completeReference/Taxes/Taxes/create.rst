@@ -1,20 +1,24 @@
-Creating Taxes
---------------
+Create a Tax Rate
+^^^^^^^^^^^^^^^^^
 
-To create a new Taxes, navigate to **Taxes > Taxes** in the main menu and click **Create Taxes**.
+To create a new Tax Rate:
 
-Preview:
+#. Navigate to **Taxes > Taxes** in the main menu.
 
-.. image:: /completeReference/img/Taxes/Taxes/TaxesCreate.png
-   :class: with-border
+#. Click **Create Tax**.
+   The following page opens:
 
-.. image:: /completeReference/img/Taxes/Taxes/CreateTax_Taxes_Taxes.png
-   :class: with-border
+   .. image:: /completeReference/img/Taxes/Taxes/TaxesCreate.png
+      :class: with-border
 
-You can perform the following actions at the TaxesCreate page:
+#. Fill in **Code**, **Description**, and **Rate (%)**.
 
- * Cancel
+#. Click **Save** on the top right of the page.
 
- * Save And Close
+The new Tax Rate is created.
 
+**Next steps**
 
+`Create a tax rule <../TaxRules/create.html>`_ that associates this tax rate or tax exemption (zero rate) with other tax components (`products <../ProductTaxCodes>`_, `customer acounts <../ProductTaxCodes>`_ and `tax jurisdictions <../TaxJurisdictions>`_).
+
+.. finish

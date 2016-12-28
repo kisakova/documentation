@@ -1,3 +1,5 @@
+:orphan:
+
 Mananing Entities
 =================
 
@@ -5,8 +7,6 @@ Mananing Entities
    :maxdepth: 1
 
    viewlist
-
-   view
 
    create
 

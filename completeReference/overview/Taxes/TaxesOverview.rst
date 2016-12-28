@@ -3,11 +3,4 @@ Overview
 
 .. begin
 
-.. image:: /completeReference/img/Taxes/Taxes/All_Taxes_Taxes.png
-   :class: with-border
-
-.. image:: /completeReference/img/Taxes/Taxes/LOS_ANGELES_COUNTY_SALES_TAX_Edit_Taxes_Taxes.png
-   :class: with-border
-
-.. image:: /completeReference/img/Taxes/Taxes/LOS_ANGELES_COUNTY_SALES_TAX_View_Taxes_Taxes.png
-   :class: with-border
+Tax or tax rate is a particular percentage of tax with unique identifier and descripiton that helps you associate the tax rate with other tax components using `tax rule <../TaxRules>`_.

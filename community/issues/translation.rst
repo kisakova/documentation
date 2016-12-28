@@ -8,10 +8,10 @@ In order to report a translation-related issue, please use the
 
 Please don't hesitate to contact us from Crowdin if:
 
-* Your translation has been marked as approved for over one day and has not appeared in the OroCommerce
+* Your translation has been marked as approved for over one day but has not appeared in OroCommerce
 
 * Your translation is still not approved after more than seven days of review.
 
-* You would like to help proofreading a target language.
+* You would like to help proofread a target language.
 
-* You have any other question and issue related to translations that are not covered in Oro documentation and the Crowdin tutorial.
+* You have any other questions and issues related to translations that are not covered in Oro documentation and the Crowdin tutorial.

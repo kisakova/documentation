@@ -3,7 +3,7 @@ Submitting an Issue
 
 We are using GitHub as a bug tracker. If you find a bug in the source code or a mistake in the documentation, you can help us by submitting an issue to our GitHub repository.
 
-Before you submit your issue search on GitHub, maybe the same issue has already been reported.
+Before you submit your issue search on GitHub, make sure that the same issue hasn't already been reported.
 
 * `OroPlatform issue tracker <https://github.com/orocrm/platform/issues?q=>`_
 * `OroCommerce issue tracker <https://github.com/orocommerce/orocommerce/issues?q=>`_
@@ -13,7 +13,7 @@ Before you submit your issue search on GitHub, maybe the same issue has already 
 
     **Reporting security issues**
 
-    Responsible disclosure is the industry best practice, and we ask you to use `this procedure <./issues/security.html>`_ to report security issues. Please never post security issues publicly!
+    Responsible disclosure is the industry best practice, and we ask you to use `this procedure <./issues/security>`_ to report security issues. Please never post security issues publicly!
 
 Providing the following information will increase the chances of your issue being dealt with quickly:
 
@@ -21,7 +21,7 @@ Providing the following information will increase the chances of your issue bein
 * Unambiguous set of steps describing how to reproduce the issue.
 * Details about your environment:
     * Version of the product (is it master? the latest stable version?)
-    * Extensions you have installed and customizations if you made any
+    * Extensions you have installed and customizations, if any
     * Server operating system (Windows, Ubuntu, CentOS, RHEL, Fedora, other Linux) version and bitness (32-bit, 64-bit)
     * PHP version
     * Database (MySQL, PostgreSQL) version

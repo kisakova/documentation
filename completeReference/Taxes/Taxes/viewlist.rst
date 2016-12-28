@@ -1,46 +1,45 @@
-Viewing and filtering all Taxes
--------------------------------
+View and Filter Tax Rates
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To view all Taxes, navigate to **Taxes > Taxes** in the main menu.
+To view all Tax Rates, navigate to **Taxes > Tax Rates** in the main menu.
 
-Preview:
-
-.. include:: /completeReference/overview/Taxes/TaxesOverview.rst
-  :start-after: begin
-
-
-.. image:: /completeReference/img/Taxes/Taxes/Taxes.png
+.. image:: /completeReference/img/Taxes/Taxes/All_Taxes_Taxes.png
    :class: with-border
 
-The following information about the Taxes is available in the Taxes list:
+.. note:: To handle big volume of data, use page switcher, increase *View Per Page* or use `filters <user-guide-ui-components-grid-filters>`_ to narrow down the list to just the codes you need.
 
-+-------------+-------------+
-| Name        | Description |
-+=============+=============+
-| CODE        |             |
-+-------------+-------------+
-| DESCRIPTION |             |
-+-------------+-------------+
-| RATE        |             |
-+-------------+-------------+
-| CREATED AT  |             |
-+-------------+-------------+
-| UPDATED AT  |             |
-+-------------+-------------+
+The following information about the Tax Rates is available in the Tax Rates list:
+
++-------------+------------------------------------------+
+| Name        | Description                              |
++=============+==========================================+
+| CODE        | The unique identifier of the Tax Rate.   |
++-------------+------------------------------------------+
+| DESCRIPTION | Detailed description of the Tax Rate.    |
++-------------+------------------------------------------+
+| CREATED AT  | Date when the Tax Rate was created.      |
++-------------+------------------------------------------+
+| UPDATED AT  | Date when the Tax Rate was updated last. |
++-------------+------------------------------------------+
 
 **Next steps**
 
-You can perform the following actions with every item in the Taxes list:
+You can perform the following actions with every item in the Tax Rates list:
 
- * Edit
+ * `View a Tax Rate details <view.html>`_: Click on the item to open its details page.
+   
+   OR
+   
+   Aternatively: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcView| to open its details page.
 
- * Delete
+ * `Edit a Tax Rate details <edit.html>`_: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcEdit| to start editing its details.
 
- * View
+ * Delete a Tax Rate: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcDelete| to remove the Tax Rate.
 
+ * `Create Tax <create.html>`_: Click **Create Tax** to the top right from the list. 
 
-You can perform the following actions at the Taxes page:
+.. finish
 
- * Create Tax
-
+.. include:: /include-images.rst
+   :start-after: begin
 

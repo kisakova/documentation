@@ -1,5 +1,5 @@
-Oro Platform Common
-===================
+OroPlatform Common
+==================
 
 .. toctree::
    customizing-import-export

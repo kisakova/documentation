@@ -7,7 +7,7 @@ Tags
 
 Tags are non-hierarchical keywords or phrases that are assigned to records. They provide additional information about 
 records and are visible to all the system users. Tags can be assigned to any records of any entity and used for 
-:ref:`filtering <user-guide-filters-management>`. They can also be used to create a report for only the records that 
+`filtering <../../commonActions/filter.html>`_. They can also be used to create a report for only the records that 
 have/don't have a specific tag, and even generate targeted segments for mailings and marketing campaigns. Moreover, you 
 can easily find all records that have a specific tag from anywhere in the system, even if you don't know their other 
 details, as described below. 
@@ -20,7 +20,7 @@ You can add a tag from the grid or from a View page of a specific record.
 Add a Tag from the Grid
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The tag column is available by default on the :ref:`grids <user-guide-ui-components-grids>`. If they are not, you can 
+The tag column is available by default on the grids. If they are not, you can 
 :ref:`adjust the table settings <user-guide-ui-components-grids-change-table>` and add the column. Adding a tag is no 
 different from :ref:`editing other properties <user-guide-ui-components-grid-edit>` from a grid:
 
@@ -67,7 +67,7 @@ Manage Tags
 -----------
 
 You can see all the tags available in the system, as well as the amount of times they were assigned to a record, in the 
-Tags :ref:`grid <user-guide-ui-components-grids>`.
+Tags grid.
 
 .. image:: /completeReference/img/Advanced/data_management/tags/tags_from_grid.png
 
@@ -94,11 +94,11 @@ In order to see all the records with a specific tag anywhere in the system.
 
 |
 
-.. image:: /completeReference/img/gettingStarted/navigation/panel/search_vip.png
+.. image:: /completeReference/img/GettingStarted/navigation/panel/search_vip.png
 
 |
 
-.. image:: /completeReference/img/gettingStarted/navigation/panel/search_vip_1.png
+.. image:: /completeReference/img/GettingStarted/navigation/panel/search_vip_1.png
 
 |
 
@@ -106,7 +106,7 @@ You will see the page similar to the search results. It will contain all the rec
 
 |
 
-.. image:: /completeReference/img/gettingStarted/navigation/panel/search_vip_2.png
+.. image:: /completeReference/img/GettingStarted/navigation/panel/search_vip_2.png
 
 |
 

@@ -24,7 +24,7 @@ Contact Request
 
 The form initially looks as follows:
 
-.. image:: /completeReference/img/System/Integrations/EmbbeddedForms/emb_form/cont_req.png
+.. image:: /completeReference/img/System/Integrations/EmbeddedForms/emb_form/cont_req.png
 
 Magento Contact Us Request
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -33,7 +33,7 @@ The form is sharpened for the Magento design, however it can be used for any web
 
 The form initially looks as follows:
 
-.. image:: /completeReference/img/System/Integrations/EmbbeddedForms/emb_form/cont_req_magento.png
+.. image:: /completeReference/img/System/Integrations/EmbeddedForms/emb_form/cont_req_magento.png
 
 
 Create and Preview an Embedded Form
@@ -71,7 +71,7 @@ yellow. We've also changed the Success Message to "Thank you for the question!".
 
       |
   
-.. image:: /completeReference/img/System/Integrations/EmbbeddedForms/emb_form/emb_form_create_ex.png
+.. image:: /completeReference/img/System/Integrations/EmbeddedForms/emb_form/emb_form_create_ex.png
 
 |
 
@@ -79,7 +79,7 @@ After we've saved it, the form has appeared in the Embedded Forms grid.
 
        |
   
-.. image:: /completeReference/img/System/Integrations/EmbbeddedForms/emb_form/emb_form_create_ex_01.png
+.. image:: /completeReference/img/System/Integrations/EmbeddedForms/emb_form/emb_form_create_ex_01.png
 
 |
 
@@ -87,7 +87,7 @@ You can preview the form on its `View page <../../../completeReference/Advanced/
 
       |
   
-.. image:: /completeReference/img/System/Integrations/EmbbeddedForms/emb_form/emb_form_create_ex_02.png
+.. image:: /completeReference/img/System/Integrations/EmbeddedForms/emb_form/emb_form_create_ex_02.png
 
 
 Manage Embedded Forms
@@ -107,7 +107,7 @@ Add the Form to Your Site
 -------------------------  
 Open the form View page and go to the "Get Code" section. The code to add your form to the site is available there.
 
-.. image:: /completeReference/img/System/Integrations/EmbbeddedForms/emb_form/emb_form_code.png
+.. image:: /completeReference/img/System/Integrations/EmbeddedForms/emb_form/emb_form_code.png
 
 
 .. |IcDelete| image:: /completeReference/img/common/buttons/IcDelete.png

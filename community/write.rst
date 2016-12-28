@@ -3,11 +3,11 @@ Contributing to Documentation
 
 .. contents:: :local:
 
-We use `reStructuredText`_ markup language to write the documentation and `Sphinx`_ generator to prepare it for the web publication at http://www.orocrm.com/documentation. You can find more information about the syntax on the Sphinx website by reading `reStructuredText Primer`_. The most inposrtant information is provided in the sections below.
+We use `reStructuredText`_ markup language to write the documentation and `Sphinx`_ generator to prepare it for the web publication at http://www.orocrm.com/documentation. You can find more information about the syntax on the Sphinx website by reading `reStructuredText Primer`_. The most important information is provided in the sections below.
 
-Documentation source files are maintained in the dedicated `gitgub <https://github.com/orocommerce/documentation>`_ repository.
+Documentation source files are maintained in the dedicated `gitgub repository <https://github.com/orocommerce/documentation>`_.
 
-If you are willing to contribute - you are totally welcome. The information below should help with understanding documentation structure and topic organization, useful rst directives and a simple workflow that helps quickly publish a new topic.
+If you are willing to contribute - you are totally welcome. The information below should help you understand the documentation structure and topic organization, useful rst directives and a simple workflow that helps quickly publish a new topic.
 
 Before You Begin
 ----------------
@@ -31,7 +31,7 @@ For large volume of  updates, fixes, and enhancements please use the following p
 
 #. Update your local copy of documentation (see `Update Documentation`_ for more information on the process and formatting).
 
-#. Build and test the documentation before submitting the pull request to be sure you haven't accidentally introduced any layout or formatting issues.
+#. Build and test the documentation before submitting a pull request to be sure you haven't accidentally introduced any layout or formatting issues.
 
   .. note::
 
@@ -48,7 +48,7 @@ For large volume of  updates, fixes, and enhancements please use the following p
 Update Documentation
 --------------------
 
-This section is intended to provide you with basic information of simple text formatting using reStructuredText (reST) markup language. Just enough to update and create new documetnation files in OroCommerce documentation.
+This section is intended to provide you with the basic information of simple text formatting using reStructuredText (reST) markup language. Just enough to update and create new documentation files in OroCommerce documentation.
 
 For more information, please refer to the sphinx's `reStructuredText Primer`_ and to the `Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_ by `docutils <http://docutils.sourceforge.net>`_.
 
@@ -59,20 +59,20 @@ The most complete information is available in the `reStructureText specificaion 
 Documentation Structure and Topic Organization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In OroCommerce, documentation is organized into the tree hierarchy of sections using toctree directive in the index.rst. Sections of the same level recide in the same folder which simplifies navigation and sibling reference.
+In OroCommerce, documentation is organized into the tree hierarchy of sections using toctree directive in the index.rst. Sections of the same level reside in the same folder which simplifies navigation and sibling reference.
 
 Sample file structure:
 
 .. code-block:: none
 
-    + user_guide:
+    + user-guide:
         + img:
             - Demo.png
         - topic-1.rst
         - topic-2.rst
         - topic-3.rst
         - index.rst
-    + admin_guide:
+    + admin-guide:
         - index.rst
         + integration
             - email.rst
@@ -87,7 +87,7 @@ Basic Rst Syntax
 Headings
 ~~~~~~~~
 
-Use the following markup for the headings split your topic into secions, subsections, and more granular bits:
+Use the following markup for the headings to split your topic into sections, subsections, and more granular bits:
 
 Use an underline with =, -, ^, ~, " to mark up the sections.
 
@@ -117,7 +117,7 @@ Preserve the same level of indentation for all lines of the paragraph. More info
 Inline Markup
 ~~~~~~~~~~~~~
 
-Surround the text with one asterisk (\*) for *italic* text, with two asterisks (\*\*) for **bold** text, and with double backquotes (\`\`) for ``Preformatted`` text. to use these symbols in the text without affecting the text style, escape them with the backslash (\\).
+Surround the text with one asterisk (\*) for *italic* text, with two asterisks (\*\*) for **bold** text, and with double back quotes (\`\`) for ``Preformatted`` text. to use these symbols in the text without affecting the text style, escape them with the backslash (\\).
 
 Bulleted List
 ~~~~~~~~~~~~~
@@ -149,7 +149,7 @@ Preview:
 Numbered List
 ~~~~~~~~~~~~~
 
-To form a numbered list, start the line with arabic numerals (1,2,3), upper- or lowercase alphabet letters (A,B,C, or a,b,c), upper- or lowercase Roman numerals (I, II, III, or i, ii, iii). You can automatically enumerate the list by starting the lines with a hash sign (\#).
+To form a numbered list, start the line with Arabic numerals (1,2,3), upper- or lowercase alphabet letters (A,B,C, or a,b,c), upper- or lowercase Roman numerals (I, II, III, or i, ii, iii). You can automatically enumerate the list by starting the lines with a hash sign (\#).
 
 Simple numbered list:
 
@@ -176,8 +176,8 @@ Preview:
               i. Item E
               ii. Item F
 
-Autoenumerated List
-~~~~~~~~~~~~~~~~~~~
+Auto enumerated List
+~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: none
 
@@ -251,31 +251,39 @@ Advanced Rst Syntax
 
 Temporarily, the information resides `on Confluence <https://magecore.atlassian.net/wiki/display/OD/RST+syntax+in+Oro+Documentation>`_. 
 
-.. note:: References to the section titles in the doc are enbabled with the 'sphinx.ext.autosectionlabel' plugin.
+.. note:: References to the section titles in the doc are enabled with the 'sphinx.ext.autosectionlabel' plugin.
 
 .. TODO: complete this section (move from confluence to github)
 
 
+File Naming Conventions
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Please follow the recommendations below when naming the new documenation file:
+
+* Use a topic-based approach (e.g. assign-user-management-permissions-to-the-organization.rst).
+
+* Use lowercase letters and Arabic numbers only.
+
+* Replace whitespace symbols with hyphens (e.g. file-naming-conventions.rst).
+
+* Avoid special symbols (/,$,#, etc).
+
+* Save the file with .rst extension
+
 Add a New Topic
 ^^^^^^^^^^^^^^^
 
-1. Create topic contents using Restructured Text format and save the file using the following filename convention: 
-
-    * Use lowercase letters for the name.
-
-    * Remove whitespaces or replace them with a dash symbol ('-'), if necessary.
-
-    * Avoid special symbols (/,$,#, etc) that may cause issues in the filename.
-
-    * Save the file with .rst extension
+1. Create topic contents using Restructured Text format and save it following the `File Naming Conventions`
+_.
 
 2. To link a topic to the global documentation table of contents:
 
     a) Identify the best location for the reference to your new topic in the documentation structure.
     b) Move the newly created file to the selected folder. 
-    c) Append the relative focument name (without the rst extension) to the toctree definition in the potential parent topic. 
+    c) Append the relative document name (without the rst extension) to the toctree definition in the potential parent topic. 
 
-For example, when we create a new topic with additional information about pricelist management in the *additional_pricelist_management_info.rst* file. To include it into the document structure at the **user_guide/pricing** level, we'll update the *index.rst* file in the *user_guide/pricing* directory like in the following example:
+For example, when we create a new topic with additional information about price list management in the *additional_pricelist_management_info.rst* file. To include it into the document structure at the **user-guide/pricing** level, we'll update the *index.rst* file in the *user-guide/pricing* directory like in the following example:
 
 **Before:**
 
@@ -300,6 +308,12 @@ For example, when we create a new topic with additional information about pricel
        price_list_management
 
        additional_pricelist_management_info
+
+.. tip::
+   If your are adding more than one topic and your new topics cover the same domain, consider grouping them into a folder.
+   For better navigation, it is recommended to create a dedicated index.rst file with an overview and references to the topics in the new folder (using \.\. toctree:: directive).
+   To attach your newly created group of topics into the general structure, add the reference to the index.rst to the appropriate loaction in the documetnation hierarchy (e.g. *documentation-structure-and-topic-organization.rst* and *file-naming-conventions.rst* may be saved to the *user-guide/writing* folder, may be added to the toctree of the dedicated *user-guide/witing/index.rst*. 
+   Finally, *user-guide/witing/index.rst* may be added into the *user-guide/index.rst* toctree to attach the newly created files into the global documentation structure).
 
 Submit Documentation Updates
 ----------------------------

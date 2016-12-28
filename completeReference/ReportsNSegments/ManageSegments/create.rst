@@ -15,17 +15,14 @@ To create a new data Segment:
 	  :widths: 10, 30
 
 	  "**Name**","Name used to refer to the segment in the system."
-      "**Description**","Segment description aimed to help you and other users understand the purpose or 
-peculiarities of the segment in the future."
+	  "**Description**","Segment description aimed to help you and other users understand the purpose or peculiarities of the segment in the future."
 	  "**Entity**","Choose an entity from the drop-down. Records of the chosen entity will be selected in the segment."
 	  "**Type**","Chose the segment type from the drop-down:
-	 
-	  - **Dynamic** segments are updated as soon as any changes have taken place in the system 
 	  
-	  - **Manual** segments will be updated only following the user request 
-	    (:ref:`refresh the grid <user-guide-ui-components-grid-action-buttons>` in the View page of the Segment record)"
-	  "**Owner**","A business unit, members of which can manage the segment, subject to the 
-	  :ref:`roles <user-guide-user-management-permissions>` defined in the system."
+		  - **Dynamic** segments are updated as soon as any changes have taken place in the system 
+		  
+		  - **Manual** segments will be updated only following the user request  (:ref:`refresh the grid <user-guide-ui-components-grid-action-buttons>` in the View page of the Segment record)"
+	  "**Owner**","A business unit, members of which can manage the segment, subject to the `roles <../../System/UserManagement/roles.html>`_ defined in the system."
    
    .. image:: /completeReference/img/common/filters/segments_form.png
 
@@ -55,3 +52,16 @@ peculiarities of the segment in the future."
 filters that will be used to select the records for the segment. See more information about using filters `here <../../../completeRerefernce/commonActions/filter.html>`_. 
 
 5. Click **Save**.
+
+
+.. |IcEdit| image:: /completeReference/img/common/buttons/IcEdit.png
+   :align: middle
+   
+.. |IcView| image:: /completeReference/img/common/buttons/IcView.png
+   :align: middle
+   
+.. |IcDelete| image:: /completeReference/img/common/buttons/IcDelete.png
+   :align: middle
+
+.. |IcMove| image:: /completeReference/img/common/buttons/IcMove.png
+   :align: middle

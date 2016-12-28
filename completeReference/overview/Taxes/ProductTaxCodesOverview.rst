@@ -3,14 +3,6 @@ Overview
 
 .. begin
 
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/CreateProductTaxCode_ProductTaxCodes_Taxes.png
+Product Tax Code is a label that is assigned to a product or product group and indicates the tax obligations and exemptions customers have when they purchase this product. These tax obligations are taken into account when a customer (user) submits an order.
 
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/All_ProductTaxCodes_Taxes.png
-
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/MEDICAL_IDENTIFICATION_TAGS_Edit_ProductTaxCodes_Taxes.png
-
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/MEDICAL_IDENTIFICATION_TAGS_Edit_ProductTaxCodes_Taxes1.png
-
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/MEDICAL_IDENTIFICATION_TAGS_View_ProductTaxCodes_Taxes_ChangeHistory.png
-
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/MEDICAL_IDENTIFICATION_TAGS_View_ProductTaxCodes_Taxes.png
+The sections below provide guidance on managing product tax codes, using them to label products and bind products to a dedicated tax rules.

@@ -10,17 +10,15 @@ Preview:
 
 .. toctree::
 
-   users
+   concepts
 
-   Users/create
+   users
 
    roles
 
-   Roles/create
-
    groups
 
-   business_units
+   business-units
 
    organizations
 

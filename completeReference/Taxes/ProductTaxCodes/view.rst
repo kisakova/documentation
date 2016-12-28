@@ -1,51 +1,44 @@
-Viewing details of Product Tax Codes
-------------------------------------
+View Product Tax Code Details, Linked Products and Change History
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To view all Product Tax Codes, navigate to **Taxes > Product Tax Codes** in the main menu, and click on the line with the necessary Product Tax Codes.
+To view a Product Tax Code details: 
 
-Preview:
+#. Navigate to **Taxes > Product Tax Codes** in the main menu. 
 
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/ProductTaxCodesView.png
-   :class: with-border
+#. Find the line with the necessary Product Tax Code and click on it.
 
-The following information about the Product Tax CodesView is available in the Product Tax CodesView list:
+   The following information is available immediately:
 
-+------------------+-------------+
-| Name             | Description |
-+==================+=============+
-| SKU              |             |
-+------------------+-------------+
-| NAME             |             |
-+------------------+-------------+
-| INVENTORY STATUS |             |
-+------------------+-------------+
-| STATUS           |             |
-+------------------+-------------+
-| CREATED AT       |             |
-+------------------+-------------+
-| UPDATED AT       |             |
-+------------------+-------------+
+   * Code
+
+   * Decription
+
+   * List of products with this product tax code
+
+   .. image:: /completeReference/img/Taxes/ProductTaxCodes/MEDICAL_IDENTIFICATION_TAGS_View_ProductTaxCodes_Taxes.png
+      :class: with-border
 
 **Next steps**
 
-You can perform the following actions with every item in the Product Tax CodesView list:
+You can perform the following actions with a Product Tax Code:
 
- * View
+ * View Change History: See the log of edits of this product tax code by clicking on the **Change History** link to the tp right of the page.
+   
+   .. image:: /completeReference/img/Taxes/ProductTaxCodes/MEDICAL_IDENTIFICATION_TAGS_View_ProductTaxCodes_Taxes_ChangeHistory.png
+      :class: with-border
 
-Additionally, you can view the following information:
+ * View details of the product linked to this product tax code: Click on the line with the customer account details.
+   
+   .. note:: You can edit the product details to remove link to this product tax code, if necessary.
 
-+-------------+-------------+
-| Name        | Description |
-+=============+=============+
-| Code        |             |
-+-------------+-------------+
-| Description |             |
-+-------------+-------------+
+   .. image:: /completeReference/img/Taxes/ProductTaxCodes/ProductTaxCodeLinkedProduct.png
+      :class: with-border
 
-You can perform the following actions at the Product Tax CodesView page:
+ * `Edit a Product Tax Code details <edit.html>`_: Click |IcEdit| **Edit** to the top right of the page.
 
- * Edit
+ * Delete a Product Tax Code: Click |IcDelete| **Delete** to the top right of the page.
 
- * Delete
+.. finish
 
-
+.. include:: /include-images.rst
+   :start-after: begin

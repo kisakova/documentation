@@ -8,7 +8,10 @@ Preview:
 .. include:: /completeReference/overview/System/UserManagement/OrganizationsOverview.rst
   :start-after: begin
 
+.. toctree::
+   :maxdepth: 1
 
+   Organizations/index
 
 .. image:: /completeReference/img/System/UserManagement/Organizations.png
    :class: with-border
@@ -65,8 +68,8 @@ In order to create an Organization record:
 
 1. Go to *System → User Management → Organizations*.
 2. Click the :guilabel:`Create Organization` button.
-3. Define the general details and the list of users for the organization created, and specify if it is a 
-   :ref:`system organization <user-ee-multi-org-system>`:
+3. Define the general details and the list of users for the organization created.
+4. In Additional section, set the global access property. Setting yes grants an organization global permissions and makes it a *system organization*:
 
 The following fields **must** be defined 
 
@@ -96,12 +99,10 @@ Users
     Please note that the "HAS ORGANIZATION" check-box defines if the user is assigned the organization role that you are
     editing/creating.
 
-
 Additional
 ^^^^^^^^^^
 
-In the *"Additional"* section, you can define if the organization is a 
-:ref:`system organization <user-ee-multi-org-system>`.
+In the *"Additional"* section, you can define if the organization has global access and can manage other organization data.
 
 
 View and Manage an Organization Record
@@ -123,7 +124,7 @@ From the grid you can:
 
 - Get to the `View page <../../../completeReference/Advanced/data_management/view.html>`_ of the organization: |IcView|.
 
-- Get to the :ref:`configuration settings <admin-configuration>` of the organization: |IcConfig|
+- Get to the configuration settings of the organization: |IcConfig|
 
 In the community edition, you can only edit the organization name and its description. To get to 
 the edit page, go to *System → User Management → Organizations*.

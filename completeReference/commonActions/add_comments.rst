@@ -6,15 +6,14 @@ Add Comment
 .. warning:: Reused from OroCRM. Rework.
 
 Interaction between users is an important part of successful work. In order to enable users to leave comments on records
-of an :term:`entity <Entity>` or on details of an :ref:`activity <user-guide-activities>`, other than a contact request 
+of an :term:`entity <Entity>` or on details of an `activity <actions.html>`_, other than a contact request 
 (e.g. leave some additional details of task, comment on an email sent or a call made, etc.) use the "*Add Comment"* 
 action.
 
 .. note::
 
     Comments are available for any activity or entity that has the Comments activity 
-    :ref:`enabled <user-guide-activities-enable>`.
-
+    enabled in the `entity settings <../System/Entities/entity.html>`_.
 
 Create and View Comments
 ------------------------
@@ -64,12 +63,3 @@ Mr. Jeffrey Maynard.
   comments made by Ellen Rowel and John Doe.
 
   .. image:: /completeReference/img/common/activities/comments_05.png 
-
-   
-Case Comments
--------------
-
-Case comments work in a similar manner, except there is an additional check-box - "Make Public". You can use it to 
-define if the comment shall be public on :ref:`Zendesk <user-guide-zendesk-integration>`. 
-
-  .. image:: /completeReference/img/common/activities/comments_case.png 

@@ -51,8 +51,8 @@ Start Creating an Entity Field
     an only entity). 
   
    Serialized fields cannot be used for :ref:`grid filters <user-guide-ui-components-grid-filters>`, for
-   :ref:`report <user-guide-reports>` and :ref:`chart <user-guide-reports-chart>` generation, for data audit and creation 
-   of :ref:`segments <user-guide-filters-segments>` and :ref:`relations <user-guide-entity-management-create-relation>`.
+   `report <../../../ReportsNSegments/ManageCustomReports>`_ and :ref:`chart <user-guide-reports-chart>` generation, for data audit and creation 
+   of `segments <../../../ReportsNSegments/ManageSegments>`_ and :ref:`relations <user-guide-entity-management-create-relation>`.
   
    Serialized fields cannot be files, multi-selects or option sets.
   
@@ -154,8 +154,7 @@ The following Yes/No options can be defined:
   "**Contact Information**","Possible values are:
     
     - empty: the field will not be treated as a contact information
-    - *Email*: values of the field will be treated by the :ref:`marketing lists<user-guide-marketing-lists>`
-      as an email address
+    - *Email*: values of the field as an email address
     - *Phone*: values of the field will be treated by the marketing lists as a phone number
 
   "

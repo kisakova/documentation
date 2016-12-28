@@ -5,12 +5,12 @@ Data Management Basics
 
 .. warning:: Reused from OroCRM. Rework. Should go into platform
 
-With OroCRM, you can record, store, process, and analyze various customer-related data. This information may cover 
+With OroCommerce, you can record, store, process, and analyze various customer-related data. This information may cover 
 different areas, including personal and contact details, records of the customer activity, possible sales and 
 arrangements, and many others. This can include any type of information necessary to monitor, manage, and understand 
 specific customer-related activities.
 
-In this article, we will review the ways that data is represented and managed in OroCRM. For each point that requires 
+In this article, we will review the ways that data is represented and managed in OroCommerce. For each point that requires 
 further explanation, you will find links to related documentation.
 
 .. _user-guide-data-management-basics-entities:
@@ -18,7 +18,7 @@ further explanation, you will find links to related documentation.
 How Data Is Organized
 ---------------------
 
-The customer relationship management process requires us to collect and process huge amounts of information. OroCRM is
+The customer relationship management process requires us to collect and process huge amounts of information. OroCommerce is
 designed to do this in the most efficient and convenient way possible.
 
 The system organizes information according to Entities, Records, and Properties. An **Entity** is a collection 
@@ -26,7 +26,7 @@ of similar information. Each instance of this collection is called a **Record**.
 **Properties**.
 
 So, information about customers of an online store is collected as properties of the records of the Web Customer entity. 
-This means that one of the OroCRM entities is “Web Customer” and the system knows that records of this entity can have a 
+This means that one of the OroCommerce entities is “Web Customer” and the system knows that records of this entity can have a 
 number of properties, such as the first name, last name, email, phone number, ID of the shipping address, ID of the 
 cart, and ID's of the orders. The system is also aware that some of these properties need to be defined while some are 
 optional. When a new customer is added to the system, their record is created and values of the properties are saved 
@@ -35,7 +35,7 @@ for it. If something has changed (e.g., the phone number), the properties are up
 New records can be created and the existing record can be updated both manually and automatically 
 (as a result of integration with third-party systems). 
 
-With OroCRM's comprehensive :ref:`access settings <user-guide-user-management-permissions>` you can define what users 
+With OroCommerce's comprehensive access settings you can define what users 
 will be able to view, update, delete, and create records of specific entities.
 
 As soon as a property has been updated, all the system users who have access permission will see its new updated state.
@@ -50,7 +50,7 @@ we need to know its unique ID (number), how many items are in the cart, what the
 purchase has been made. Therefore, we have an entity called “Cart”, which will contain records that will have all of 
 these properties: ID, number of items, total value, and status. 
 
-One customer may have several carts. In OroCRM, this means that Web Customer records can be related to many different 
+One customer may have several carts. In OroCommerce, this means that Web Customer records can be related to many different 
 Carts records. To show this, we assign one of the Web Customer properties as a “relation” to carts. This field will 
 save an identifier of the customer’s carts (such as a field of the cart). Using this identifier, the system can find 
 the cart and bind its properties to the customer.
@@ -81,7 +81,7 @@ We immediately see some major details of our contacts, such as their first and l
 You can adjust and save grid views, updated and delete grid records, get to the Edit and View pages of any grid record, 
 and even export all the data in the grid as a .csv file.
 
-The grid details are described in the :ref:`Grids <user-guide-ui-components-grids>` guide.
+The grid details are described in the `Grids <grids.html>`_ section.
 
 View Details of a Specific Record
 ---------------------------------
@@ -126,7 +126,7 @@ Use Workflows to Define Processes
 ---------------------------------
 
 The process of working with customers is ongoing: carts turn into orders, potential opportunities either fizzle or 
-turn into successful deals, and so on. OroCRM reflects these and other processes by changing record properties and 
+turn into successful deals, and so on. OroCommerce reflects these and other processes by changing record properties and 
 sometimes creating new relations. (For example, when a new lead appears and then turns successful, it gets bound to some 
 contact, some opportunity, and some customer).
 
@@ -136,7 +136,7 @@ the potential customer, but no one wants to annoy customers with duplicate calls
 to be researched and responded to, and potential big contracts require specific negotiations before they turn into 
 either a successful deal or a lost chance.
 
-In order to regulate this, workflows can be created in OroCRM. Workflow defines what transitions (changes of 
+In order to regulate this, workflows can be created in OroCommerce. Workflow defines what transitions (changes of 
 properties) are available to the system users at each step.
 
 You can find more details about workflows in the :ref:`Workflows <user-guide-workflow-management-basics>` guide.
@@ -147,7 +147,7 @@ Log Actions in the System
 Whether a workflow has been defined for entity records, or users can process it in any order, it is important to know 
 what actions have been performed with a record, as well as by whom. Who has turned this cart into an order? Who has 
 closed an opportunity? Who has deleted a customer? Who has changed contact details? In order to know the answers, you 
-can use OroCRM's data audit functionality
+can use OroCommerce's data audit functionality
 
 A detailed description of the data audit functionality is available in the :ref:`Data Audit <user-guide-data-audit>` 
 guide.
@@ -155,25 +155,25 @@ guide.
 Integrate with Third-Party Systems
 ----------------------------------
 
-OroCRM can easily integrate with third-party systems, letting users transfer their CRM data into another application, 
-and vice versa. For example, the users can upload OroCRM data into a third-party program, edit it, then transfer that 
-data back into OroCRM. Likewise, data can also be transferred into OroCRM from another application, processed, then 
+OroCommerce can easily integrate with third-party systems, letting users transfer their CRM data into another application, 
+and vice versa. For example, the users can upload OroCommerce data into a third-party program, edit it, then transfer that 
+data back into OroCommerce. Likewise, data can also be transferred into OroCommerce from another application, processed, then 
 transferred back.
 
-For example, integrating with ldap lets you load user records to OroCRM, integrating with Magento lets you load customer 
-records from a Magento store into OroCRM, and integrating with MailChimp lets you load OroCRM contact details into 
-MailChimp, as well as get the results of an email campaign within OroCRM.
+For example, integrating with ldap lets you load user records to OroCommerce, integrating with Magento lets you load customer 
+records from a Magento store into OroCommerce, and integrating with MailChimp lets you load OroCommerce contact details into 
+MailChimp, as well as get the results of an email campaign within OroCommerce.
 
 Integrations are created by the system administrator. A list of integrations available by default is available in the 
-:ref:`Integrations Overview <user-guide-integrations>`.
+`integration  <../../System/Integrations>`_.
 
 Import and Export Data
 ----------------------
 
-Another way to add records to OroCRM is to export it from a .csv file. These can consist of customer details, 
+Another way to add records to OroCommerce is to export it from a .csv file. These can consist of customer details, 
 information about your leads and opportunities, contact information, and other data.
 
-You can also export data from OroCRM into a .csv file. You can export all the records of one entity, as well as all the 
+You can also export data from OroCommerce into a .csv file. You can export all the records of one entity, as well as all the 
 records available on a specific grid. 
 
 Step-by-step instructions for the import and export actions are provided in the 
@@ -183,13 +183,12 @@ Step-by-step instructions for the import and export actions are provided in the
 Conclusion
 ----------
 
-Changing record properties in OroCRM reflects the processes that make up customer relationships. Users can add new 
-records to OroCRM one by one, either with .csv files or with integrations. The way in which records are processed can 
+Changing record properties in OroCommerce reflects the processes that make up customer relationships. Users can add new 
+records to OroCommerce one by one, either with .csv files or with integrations. The way in which records are processed can 
 be limited using record types (entities) or with workflows, and all the changes can be tracked with the data audit 
-tools. Details of the record can be easily viewed and updated in OroCRM, and as soon as there has been a change, other 
+tools. Details of the record can be easily viewed and updated in OroCommerce, and as soon as there has been a change, other 
 users will see the updated information. Throughout, stakeholders of customer relationships can access record 
-details in order to make their work more efficient. More information can be found in the 
-:ref:`OroCRM Users and Their Benefits <oro-benefits>` guide.
+details in order to make their work more efficient.
     
 Related Documents
 ----------------- 
@@ -206,11 +205,11 @@ Related Documents
 
     workflows
 
-    data_audit
+    data-audit
 
     import_export
 
-    access_permissions_basic
+    access-permissions-basics
 
  
 .. |IcDelete| image:: /completeReference/img/common/buttons/IcDelete.png

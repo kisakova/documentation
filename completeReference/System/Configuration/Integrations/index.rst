@@ -9,4 +9,4 @@ Integrations: Google SSO and MS Exchange
 
     google_single_sign_on
 
-    ms_exchange_integration
+    ms-exchange

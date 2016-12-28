@@ -46,8 +46,7 @@ have "Reply all" shown at the top.
 Attachements
 ^^^^^^^^^^^^
 
-.. TODO::
-
+.. warning:: TODO: Add description.
 
 Notification Rules
 ^^^^^^^^^^^^^^^^^^
@@ -178,7 +177,7 @@ Define the following settings for the rule:
     If you need some ORed conditions, just create a new Rule for each of them.
 
   "
-  "Response Template","Choose an :ref:`Email template <user-guide-email-template>` for autoresponse. All the templates 
+  "Response Template","Choose an `Email template <../../Emails/templates.html>`_ for autoresponse. All the templates 
   with *Entity Name* value *Email* will be available in the selector. Choose the *Custom* if you want to create a new 
   template."
   "Type","Choose if you want to use html or plain text for the email."
@@ -189,7 +188,7 @@ Define the following settings for the rule:
 Click Add button and the rule will be saved.
 
 All the rules of a mailbox can be viewed and processed from the "Autoresponse Rules" 
-:ref:`grid <user-guide-ui-components-grids>` in the corresponding section of the System Mailbox record page.
+grid in the corresponding section of the System Mailbox record page.
 
 .. image:: /completeReference/img/System/Configuration/General/system_mailbox/ar_rule.png   
 
@@ -200,7 +199,7 @@ Final Steps
 Save the created mailbox with the button in the top right corner of the page.
 
 All the system mailboxes can be viewed and processed from the "System Mailboxes" 
-:ref:`grid <user-guide-ui-components-grids>` in the corresponding section of the Email Configuration page.
+grid in the corresponding section of the Email Configuration page.
 
 
 .. image:: /completeReference/img/System/Configuration/General/system_mailbox/system_mb_grid.png

@@ -23,7 +23,7 @@ System
 
    message_queue_jobs
 
-   data_audit
+   data-audit
 
    scheduled_tasks
 
@@ -33,7 +33,7 @@ System
 
    tags
 
-   system_calendars
+   system-calendars
 
    shipping_rules
 
@@ -46,3 +46,5 @@ System
    websites
 
    Localization/index
+
+   rfq-statuses

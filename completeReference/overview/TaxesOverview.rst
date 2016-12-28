@@ -16,7 +16,7 @@ The following sections provide information and guidance on the following topics:
 
 * Managing tax exemption: enabling zero tax rates in certain jurisdictions for the selected product categories (e.g. medical products) or customers (e.g. schools, hospitals, government organizations). See `Configure tax exemptions <../../completeReference/Taxes/managing-tax-exemptions.html>`_.
 
-* Controling digital product taxes. Some states in USA and the EU have special rules for taxing digital prodcuts. OroCommerce takes those regulations into account and enforces destination-based taxation when the buyer's location is in EU or in the state with no digital product tax in USA. OroCommerce distinguishes purchases of digital products b y the product tax code. All digital items should be labeled with a special tax code for digital products. Moreover, all these tax codes should be listed in EU VAT Tax and US Sales Tax configuration, to launch special tax calculation rules. See `Before you begin`_ for detailed configuration information
+* Controlling digital product taxes. Some states in USA and the EU have special rules for taxing digital products. OroCommerce takes those regulations into account and enforces destination-based taxation when the buyer's location is in EU or in the state with no digital product tax in USA. OroCommerce distinguishes purchases of digital products b y the product tax code. All digital items should be labeled with a special tax code for digital products. Moreover, all these tax codes should be listed in EU VAT Tax and US Sales Tax configuration, to launch special tax calculation rules. See `Before you begin`_ for detailed configuration information
 
 
 Before you begin
@@ -84,7 +84,7 @@ Basically, in OroCommerce, tax rule binds the following items:
 
 * product tax code - a label for a group of products that have similar taxation rules in at least one tax jurisdictions.
 
-* tax rate - the persentage of the sales income that should be payed as a tax in the particular tax jurisdiction for a certain type of products sold to a group of customers with the same tax status.
+* tax rate - the percentage of the sales income that should be payed as a tax in the particular tax jurisdiction for a certain type of products sold to a group of customers with the same tax status.
 
 
 To create tax rules for a particular tax jurisdiction: 

@@ -12,19 +12,6 @@ Intergations in OroCommerce fall into two groups:
 
 For more information on integration configuration please see the following topics:
 
-.. toctree::
-   :maxdepth: 1
-
-    ../Configuration/Integrations/google_single_sign_on
-
-    ../Configuration/Integrations/ms_exchange_integration
-
-    ups_integration
-
-    manage_integrations
-
-    embedded_forms
-
 .. TODO: fix the remaining part
 
 .. image:: /completeReference/img/System/Integrations/Integrations.png
@@ -82,3 +69,15 @@ You can perform the following actions at the Integrations page:
  * Create Product
 
 
+.. toctree::
+   :maxdepth: 1
+
+   ups-integration
+
+   manage_integrations
+
+   embedded_forms
+
+   ../Configuration/Integrations/google_single_sign_on
+
+   ../Configuration/Integrations/ms-exchange

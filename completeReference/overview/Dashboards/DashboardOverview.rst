@@ -18,7 +18,7 @@ In addition, you can create and manage your own custom dashboard to track the mo
 
 .. comment
 	TODO
-	   adding a new dashboard (user_guide/getting_started)
-	   adding a widget (user_guide/getting_started)
-	   customising widgets (user_guide/getting_started)
-	   developing new widgets (dev_guide)
+	   adding a new dashboard (user-guide/getting_started)
+	   adding a widget (user-guide/getting_started)
+	   customising widgets (user-guide/getting_started)
+	   developing new widgets (dev-guide)

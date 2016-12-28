@@ -89,7 +89,7 @@ The section contains check-boxes for all the activities available and *"Enable N
 
 .. image:: /completeReference/img/System/Entities/entity_management/new_entity_communication_collaboration.png
 
-- Check the :ref:`activities <user-guide-activities>` that you want to enable for the entity.
+- Check the `activities <../commonActions/actions.html>`_ that you want to enable for the entity.
 
 - Choose *Yes* in the *"Enable Notes"* drop-down and it will be possible to add :ref:`notes <user-guide-add-note>` to 
   the entity records.
@@ -112,7 +112,7 @@ You can enable attachments for the entity records and define relevant limitation
 - Define the upper limit of an attachment size, if necessary. No larger attachments will be added.
 
 - Limit the list of supported MIME types if necessary. If no MIME type is defined, the list defined in 
-  the :ref:`Configuration → Upload Settings <admin-configuration-uploads>` will be used. 
+  the `Configuration > General Setup > Upload Settings <../Configuration/General/uploadSettings.html>`_ will be used. 
   
   Define the list of MIME types supported in the field, add each new type on a new line. For example:
   
@@ -141,7 +141,7 @@ Other Settings
   viewed with System → Audit functionality.
 
 - Define if the steps of a related :ref:`workflow <user-guide-workflow-management-basics>` will be displayed on the 
-  entity records :ref:`grid <user-guide-ui-components-grids>`. 
+  entity records grid. 
   
 
 Add Fields to an Entity
@@ -200,7 +200,7 @@ The following table describes columns of the Entities grid and how they affect a
   need to change configuration or otherwise find the entity in the code.","No"
   "**DELETED**","Defines if the entity has been deleted since the latest schema updated.","Entities that have been 
   deleted can be viewed, edited and restored until the next schema update."
-  "**ORGANIZATION**","For systems with :ref:`multiple organizations <user-ee-multi-org>` shows, to which organizations 
+  "**ORGANIZATION**","For systems with multiple organizations shows, to which organizations 
   the entity belongs.","No"
   "**UPDATED AT**","The date and time of the last schema update for the entity.","No"
   "...","Hover your mouse over the *...* to access the action icons.","Use the icons to manage the entity."  

@@ -22,7 +22,7 @@ Pin a Page
 ----------
 
 You can pin a page to the header and come back to it at any time in one click. Some pages, such as 
-:ref:`Dashboards <user-guide-dashboards>` or `Calendars <../../compeleteReference/System/system_calendars.html>`_, cannot be pinned.
+`Dashboards <../Dashboards>`_ or `Calendars <../../compeleteReference/System/system_calendars.html>`_, cannot be pinned.
 
 To pin a page, click the pin icon in the top right corner of the page. 
 

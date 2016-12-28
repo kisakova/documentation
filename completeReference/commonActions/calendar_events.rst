@@ -23,8 +23,7 @@ There are several ways to create an event:
 Add an Event for a Related Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The *Add Event* action will be available for records of entities with "Calendar Events" activity 
-:ref:`enabled <user-guide-activities-enable>`.
+The *Add Event* action will be available for records of entities with "Calendar Events" activity enabled in the `entity settings <../System/Entities/entity>`_.
 
 1. Open the View page of a record the event is related to.
 
@@ -147,19 +146,9 @@ View and Manage Events
 
 .. image:: /completeReference/img/common/activities/my_tasks_info.png
 
-
-.. note:
+.. note::
   
-    The calendar events can also be mapped to the Oulook account as described in the corresponding 
-    :ref:`section <outlook-task-mapping>` of the :ref:`Synchronization with Outlook guide `<user-guide-synch-outlook>.
-
-
-
-.. note:
-  
-    The tasks can also be mapped to the Oulook account as described in the corresponding 
-    :ref:`section <ooutlook-calendar-mapping>` of the 
-    :ref:`Synchronization with Outlook guide `<user-guide-synch-outlook>.
+    The calendar events can also be mapped to the Oulook account as described in the `Synchronization with Outlook <../System/Configuration/Integrations/ms-exchnage.html>`_ section.
 
 
 .. |IcDelete| image:: /completeReference/img/common/buttons/IcDelete.png

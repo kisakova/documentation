@@ -6,15 +6,13 @@ Overview
 
 .. rubric:: Master catalog
 
-Master catalog is a tree structure the organises all products you are selling. A category may group the products of the same type or may enforce the unified selling strategy, special `visibility <../../completeReference/Products/Products/managing-product-visibility.html>`_ and SEO settings, `inventory management strategy <../../completeReference/Inventory/ManageInventory/index.html>`_, and the `default product options <../../completeReference/Products/Products/product-units-and-precision.html>`_ (units and the value precision) that best fit the resulting product family.
+Master catalog is a tree structure that organises all products you are selling. A category may group the products of the same type or may enforce the unified selling strategy, special `visibility <../../completeReference/Products/Products/managing-product-visibility.html>`_ and SEO settings, `inventory management strategy <../../completeReference/Inventory/ManageInventory>`_, and the `default product options <../../completeReference/Products/Products/product-units-and-precision.html>`_ (units and the value precision) that best fit the resulting product family.
 
 Watch this short video to see how to set up a basic category structure:
 
-.. TODO .. raw:: HTML
-   <video width="700px" controls>
-   <source src="../../_static/video/Products/AddCategoryStructure.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-   </video>
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/shpqpFao6bA" frameborder="0" allowfullscreen></iframe>
 
 Once the categories are in place, you can:
 
@@ -23,6 +21,9 @@ Once the categories are in place, you can:
 * Configure SEO options
 
 **WORK IN PROGRESS**
+
+.. image:: /completeReference/img/concepts/masterCatalogInTheStore.png
+           :class: with-border
 
 Personalized product catalogues with variable pricing
 

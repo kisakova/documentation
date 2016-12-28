@@ -11,11 +11,8 @@ Watch this 40 seconds video that guides you through adding a *Maximum retail pri
 
 .. raw:: HTML
 
-   <video width="700px" controls>
-   <source src="../../../_static/gif/Products/AddPriceAttribute.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-   </video>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/El_eVV1CB4w" frameborder="0" allowfullscreen></iframe>
 
 **Related topics**
 
-You can use price attribute as a base value for manually or `automatically generated price list </completeReference/Sales/PriceLists/index.html>`_.
+You can use price attribute as a base value for manually or `automatically generated price list </completeReference/Sales/PriceLists>`_.  

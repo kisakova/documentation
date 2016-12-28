@@ -99,7 +99,7 @@ If there is an email saved or/and a call logged in OroCRM related to you, they w
 
 .. image:: /completeReference/img/GettingStarted/intro/user_view_activities.png
 
-If there is a :ref:`task <user-guide-activities-tasks>` or a :ref:`case <user-guide-activities-cases>` assigned to you, 
+If there is a :ref:`task <user-guide-activities-tasks>` assigned to you, 
 they will be displayed in corresponding grids of the "*Additional"* section.
 
 |
@@ -116,7 +116,7 @@ Use Action Buttons
 
 Action buttons are available in the top left corner of *"My User"* page. The set of buttons depends on your organization 
 settings and user permissions. These are the same actions that you can perform in the system with regard to other users.
-Most of the actions is described in the :ref:`Productivity Tools section <user-guide-productivity-tools>`.
+Most of the actions is described in the `Productivity Tools section <../commonActions>`.
 
 |
 
@@ -202,7 +202,7 @@ in OroCRM based on emails from the Outlook side bar.
 
 Click the link to start the download. The file will be saved subject to your browser settings. 
 
-To learn more about the add-in, please refer to the :ref:`Integration with Outlook guide <user-guide-synch-outlook>`.
+To learn more about the add-in, please refer to the `Integration with Outlook guide <../System/Configuration/Integrations/ms-exchnage.html>`_.
 
 
 Get to the Edit Page of Your User Profile
@@ -304,9 +304,7 @@ You can define and update the contact information in  the *"General"* section.
    
    |
    
-- **Phone number**: is displayed to other users among your contact details and will be used as a default value to log a 
-  call related to you or call you via integrated phone applications, such as 
-  :ref:`Google Hangouts <user-guide-hangouts>`.
+- **Phone number**: is displayed to other users among your contact details.
 
   |
   

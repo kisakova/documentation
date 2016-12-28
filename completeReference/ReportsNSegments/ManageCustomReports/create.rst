@@ -14,77 +14,61 @@ To create a new Manage Custom Reports:
 	  :widths: 10, 30
 
 	  "**Name**","The name is used to refer to the report in the future. It is recommended to use a name that is meaningful for you."
-	  "**Description**"
-	  "**Entity**","Target :term:`entity <Entity>` of the report. Choose one of the entities from the drop-down. Data
-	  related to it will be used to generate the report. 
-	  (Both system and custom entities will be displayed in the alphabetic order). 
-	  You can also start typing the entity name in the text field to find it faster."
+	  "**Description**", "Description of the report."
+	  "**Entity**","Target :term:`entity <Entity>` of the report. Choose one of the entities from the drop-down. Data related to it will be used to generate the report. Both system and custom entities will be displayed in the alphabetic order. You can also start typing the entity name in the text field to find it faster."
 	  "**Report Type**","Only table reports are available."
-	  "**Owner**","Limits the list of users that can manage the report, subject to the 
-	  :ref:`access and permission settings <user-guide-user-management-permissions>`."
+	  "**Owner**","Limits the list of users that can manage the report, subject to the `access and permission settings <../../System/UserManagement/roles.html>`_."
 
 3. In the **Designer** section you can define the structure of your report.
 
    .. image:: /completeReference/img/ReportsNSegments/reports/designer.png
 
 
-	There are three main parts:
+   There are three main parts:
 
-	- **Columns**: defines the columns of your report and information displayed therein.
+   	- **Columns**: defines the columns of your report and information displayed therein.
 
-	- **Grouping**: defines how details of the report will be grouped in the rows.
+   - **Grouping**: defines how details of the report will be grouped in the rows.
 
-	- **Filters**: filter the records to be processed by the report.
+   - **Filters**: filter the records to be processed by the report.
 
 4. In the **Column** section, select the fields to include into the report.
 
-	.. csv-table:: 
-	  :header: "Field","   Description"
-	  :widths: 10, 30
+  .. csv-table:: 
+    :header: "Field","   Description"
+    :widths: 10, 30
 
-	  "**Choose a field***","Choose a field from which raw data will be taken. This can be a field of the entity
-	  specified in the general settings of the report or of a related entity. All the fields available will appear in the 
-	  drop-down list under their entities."
-	  "**Label***","A free text field that defines how the field chosen at the previous step will be referred to in the 
-	  report.  
-  
-  The field is automatically filled by the :ref:`field label <user-guide-field-management-create>`, but may be edited 
-  for each report."                 
-  "**Function***","A function to perform with the field values. You will only see the functions available for the field
-  chosen.
-  
-  There are some field-specific functions (e.g. *Won Count* that shows the number of *Won* Opportunities for the 
-  *Opportunities → Status* field. Description of of the most common function and relevant examples is
-  provided below:
+    "**Choose a field***","Choose a field from which raw data will be taken. This can be a field of the entity specified in the general settings of the report or of a related entity. All the fields available will appear in the drop-down list under their entities."
+    "**Label***","A free text field that defines how the field chosen at the previous step will be referred to in the report. The field is automatically filled by the :ref:`field label <user-guide-field-management-create>`, but may be edited for each report."
+    "**Function***","A function to perform with the field values. You will only see the functions available for the field chosen. There are some field-specific functions (e.g. *Won Count* that shows the number of *Won* Opportunities for the *Opportunities → Status* field. Description of of the most common function and relevant examples is provided below:
 
-  - *None*: no function applied. The data will be displayed for all the available entity records.
-   
-  - *Count*: you will see the number of possible values of the field for all the entity records.
-   
-  - *Sum*: the field values for all the entity records will be summed up.
+    - *None*: no function applied. The data will be displayed for all the available entity records.
+     
+    - *Count*: you will see the number of possible values of the field for all the entity records.
+     
+    - *Sum*: the field values for all the entity records will be summed up.
+      
+    - *Average*: the arithmetical mean of the field values for all the records against the amount of records will be 
+      displayed.
+      
+    - *Min*: only the smallest of all the field values for all the records will be displayed.
+     
+    - *Max*: only the largest of all the field values for all the records will be displayed.
     
-  - *Average*: the arithmetical mean of the field values for all the records against the amount of records will be 
-    displayed.
+    "
+    "**Sorting***","Defines the order values, in which the field or their functions shall be displayed in the report. 
+     
+    - *None*: no sorting applied 
+    - *Asc*: ascending
+    - *Desc*: descending
     
-  - *Min*: only the smallest of all the field values for all the records will be displayed.
-   
-  - *Max*: only the largest of all the field values for all the records will be displayed.
-  
-  "
-  "**Sorting***","Defines the order values, in which the field or their functions shall be displayed in the report. 
-   
-  - *None*: no sorting applied 
-  - *Asc*: ascending
-  - *Desc*: descending
-  
-  The whole report is sorted by the column, to which the sorting is applied. If sorting settings are defined for 
-  several columns, settings of the column that comes the earliest are used.
+    The whole report is sorted by the column, to which the sorting is applied. If sorting settings are defined for 
+    several columns, settings of the column that comes the earliest are used.
 
-  After the report has been generated, it can be sorted by any of its columns.
-  
-  "
+    After the report has been generated, it can be sorted by any of its columns.
+    
+    "
 
-  
 Actions for Columns
 """""""""""""""""""
     
@@ -232,7 +216,7 @@ in the *"Filters"* section will be used for the report.
 
 For example, you can create a report only for those customers, who appeared within the last month and live in Texas.
 
-Please see the :ref:`Filters guide <user-guide-filters-management>` for more details.
+Please see the `Filters <../../commonActions/filter.html>`_ section for more details.
 
 
 .. _user-guide-reports-chart:

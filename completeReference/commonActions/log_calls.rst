@@ -16,8 +16,7 @@ There are two ways to log a call in OroCRM:
 Log a Call Related to Another Entity Record
 -------------------------------------------
 
-The *"Log Call"* action will be available for records of entities with the *"Calls"* activity 
-:ref:`enabled <user-guide-activities-enable>`.
+The *"Log Call"* action will be available for records of entities with the *"Calls"* activity enabled in the `entity settings <../System/Entities/entity>`_.
 
 1. Go to the View page of the record, for which the call has been made. 
  
@@ -30,7 +29,7 @@ The *"Log Call"* action will be available for records of entities with the *"Cal
   :widths: 10, 30
 
   "**Owner***","Limits the list of users that can manage the log (view, edit) to users,  whose 
-  :ref:`roles <user-guide-user-management-permissions>` allow managing 
+  `roles <../System/UserManagement/roles.html>`_ allow managing 
   calls assigned to the owner (e.g. the owner, members of the same business unit, system administrator, etc.).
 
   By default, it is set to the user logging the call.  

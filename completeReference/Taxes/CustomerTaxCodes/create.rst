@@ -1,17 +1,25 @@
-Creating Customer Tax Codes
----------------------------
+Create a Customer Tax Code
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To create a new Customer Tax Codes, navigate to **Taxes > Customer Tax Codes** in the main menu and click **Create Customer Tax Codes**.
+To create a new Customer Tax Code:
 
-Preview:
+#. Navigate to **Taxes > Customer Tax Codes** in the main menu.
 
-.. image:: /completeReference/img/Taxes/CustomerTaxCodes/CustomerTaxCodesCreate.png
-   :class: with-border
+#. Click **Create Customer Tax Codes**.
+   The following page opens:
 
-You can perform the following actions at the Customer Tax CodesCreate page:
+   .. image:: /completeReference/img/Taxes/CustomerTaxCodes/CreateAccountTaxCodeAccountTaxCodesTaxes.png
+      :class: with-border
 
- * Cancel
+#. Fill in **Code** and **Description** with information about the Customer Tax Code you are creating.
 
- * Save And Close
+#. Click **Save** on the top right of the page.
+   
 
+The new Customer Tax Code is created.
 
+**Next steps**
+
+Link the tax code to `a customer <../link-a-tax-code-to-a-customer.html>`_ and `create a tax rule <../TaxRules/create.html>`_ that associates the customer tax code with the tax rate or tax exemption (zero rate).
+
+.. finish

@@ -7,8 +7,7 @@ Send Email
 
 Use the "*Send Email*" action to send an email from OroCRM.
 
-The  action will be available for records of entities with the *"Emails"* activity
-:ref:`enabled <user-guide-activities-enable>`.
+The  action will be available for records of entities with the *"Emails"* activity enabled in the `entity settings <../System/Entities/entity>`_.
 
 .. note::
 
@@ -40,7 +39,7 @@ The  action will be available for records of entities with the *"Emails"* activi
    
   At least one of the fields (*To*, *Cc* or *Bcc*) must be filled in."
   "**Subject***","A topic of the email. The field must be filled in."
-  "**Apply template**","You can choose an :ref:`email template <user-guide-email-template>` to use from the drop-down
+  "**Apply template**","You can choose an `email template <../System/Emails/templates.html>`_ to use from the drop-down
   menu."
   "**Type***","Choose whether you want to use html or plain text for the email. The type is by default set to html."
   "**Body**","Define the email body."
@@ -66,7 +65,7 @@ For example, we have created an email for the contact Jeffrey Maynard:
 
 .. note::
 
-    Some default email settings also depend on the :ref:`related configuration settings <admin-configuration-emails>`.
+    Some default email settings also depend on the `related configuration settings <../System/Emails>`_.
 
 	
 .. _user-guide-activities-emails-view:
@@ -124,7 +123,7 @@ To add an attachment to the email, use the *"From Record"* and *"Upload"* links 
 - Click *"Upload"* and choose the file to be attached from your computer.
 
 - Click *"From Record"* to re-use an attachment from another email in the thread or to choose 
-  an :ref:`attachment <user-guide-activities-attachments>` assigned to the records.
+  an `attachment <./add_attachment.html>` assigned to the records.
 
 .. image:: /completeReference/img/common/activities/send_email_buttons.png
 

@@ -20,7 +20,7 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 | ActionBundle                        | None.                                                                                |                                                                              |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ActivityBundle                      | Assign activities (such as calls,                                                    | * `ActivityBundle`_,                                                         |
-|                                     | emails and tasks) to other entities.                                                 | * User guide: :doc:`../user_guide/user_management_users`                     |
+|                                     | emails and tasks) to other entities.                                                 | * User guide: :doc:`../user-guide/user_management_users`                     |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ActivityListBundle                  | The bundle provides methods to show                                                  | * `ActivityListBundle`_                                                      |
 |                                     | all activities in one widget.                                                        |                                                                              |
@@ -45,7 +45,7 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | CalednarBundle                      | Integrates the `jQuery FullCalendar plugin`_ into OroPlatform and                    | `CalendarBundle`_                                                            |
 | calendar related functionality.     | provides additional                                                                  |                                                                              |
-|                                     | * User guide: :doc:`/user_guide/outlook_sync`                                        |                                                                              |
+|                                     | * User guide: :doc:`/user-guide/outlook_sync`                                        |                                                                              |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ChartBundle                         | Display different types of charts (like line charts, pie charts, flow charts).       | `ChartBundle`_                                                               |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -61,52 +61,52 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 |                                     |                                                                                      | * Reference: :doc:`/reference/format/dashboard`                              |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | DataAuditBundle                     | Provides changelogs of configured properties for entities.                           | `DataAuditBundle`_                                                           |
-|                                     |                                                                                      | * Book: :doc:`/book/data_audits`                                             |
+|                                     |                                                                                      | * Book: :doc:`/book/data-audits`                                             |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | DataGridBundle                      | UI control implementation for data grid views.                                       | `DataGridBundle`_                                                            |
 |                                     |                                                                                      | * Book: :doc:`/book/crud`                                                    |
 |                                     |                                                                                      | * Book: :doc:`/book/reports_configuration`                                   |
 |                                     |                                                                                      | * Cookbook: :doc:`/cookbook/how_to_pass_request_parameter_to_grid`           |
 |                                     |                                                                                      | * Reference: :doc:`/reference/format/datagrid`                               |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/common_features_channels`                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/common_features_channels`                    |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | DistributionBundle                  | Makes it possible to automatically register bundles in the application               | `DistributionBundle`_                                                        |
 |                                     | without requiring the user to do that manually in the application kernel.            |                                                                              |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | EmailBundle                         | Manages email templates, supports attachments                                        | `EmailBundle`                                                                |
 |                                     | and offers a direct mailer implementation.                                           | * Book: :doc:`/book/emails`                                                  |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_users`                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_users`                       |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | EmbeddedFormBundle                  | Makes it possible to embed Symfony forms on third-party                              | `EmbeddedFormBundle`_                                                        |
 |                                     | sites and view their submitted data.                                                 |                                                                              |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-| EntityBundle                        | Extends the functionality of the Doctrine entity manager.                            | * User guide: :doc:`/user_guide/entities`                                    |
-| selectors.                          | Adds support for entity and field `EntityBundle`_                                    | * User guide: :doc:`/user_guide/entity_fields`                               |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/common_features_channels`                    |
+| EntityBundle                        | Extends the functionality of the Doctrine entity manager.                            | * User guide: :doc:`/user-guide/entities`                                    |
+| selectors.                          | Adds support for entity and field `EntityBundle`_                                    | * User guide: :doc:`/user-guide/entity_fields`                               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/common_features_channels`                    |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | EntityConfigBundle                  | Allows to attach metadata to entity classes and offers a UI to manage them.          | `EntityConfigBundle`_                                                        |
 |                                     |                                                                                      | * Book: :doc:`/book/customization`                                           |
-|                                     |                                                                                      | * Book: :doc:`/book/data_audits`                                             |
+|                                     |                                                                                      | * Book: :doc:`/book/data-audits`                                             |
 |                                     |                                                                                      | * Book: :doc:`/book/configuration`                                           |
 |                                     |                                                                                      | * Book: :doc:`/book/entities`                                                |
 |                                     |                                                                                      | * Reference: :doc:`/reference/annotation/config`                             |
 |                                     |                                                                                      | * Reference: :doc:`/reference/annotation/config_field`                       |
 |                                     |                                                                                      | * Reference: :doc:`/reference/format/entity_config`                          |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/entities`                                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/entity_fields`                               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/entities`                                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/entity_fields`                               |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | EntityExtendBundle                  | Offers a way to create new entities in the UI, to add new relations between          | `EntityExtendBundle`_                                                        |
 |                                     | existing entities and to add additional field to existing entities.                  | * Book: :doc:`/book/customization`                                           |
 |                                     |                                                                                      | * Book: :doc:`/book/entities`                                                |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/entities`                                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/entity_fields`                               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/entities`                                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/entity_fields`                               |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | EntityMergeBundle                   | Merges different entity definitions into one entity.                                 | `EntityMergeBundle`_                                                         |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | EntityPaginationBundle              | Provides the ability to paginate data grids and entity edit pages.                   | `EntityPaginationBundle`_                                                    |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | FilterBundle                        | A reusable set of components of interactive JavaScript widgets that make it          | `FilterBundle`_                                                              |
-|                                     | possible to filter data in the backend.                                              | * User guide: :doc:`/user_guide/business_intelligence_filters`               |
+|                                     | possible to filter data in the backend.                                              | * User guide: :doc:`/user-guide/business_intelligence_filters`               |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | FormBundle                          | Adds additional form types and form extensions.                                      | `FormBundle`_                                                                |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -115,19 +115,19 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 | HelpBundle                          | Associate help sections from external web sites to application pages.                | `HelpBundle`_                                                                |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ImapBundle                          | Work with email server through the IMAP protocol.                                    | `ImapBundle`_                                                                |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_users`                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_users`                       |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ImportExportBundle                  | Makes it possible to import and export data in                                       | `ImportExportBundle`_                                                        |
 |                                     | an automated way into and from different formats.                                    | * Book: :doc:`/book/importexport`                                            |
 |                                     |                                                                                      | * Cookbook: :doc:`/cookbook/how_to_accelerate_import`                        |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/data_management_import_export`               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/data_management_import_export`               |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | InstallerBundle                     | The web installer for OroCRM.                                                        | `InstallerBundle`_                                                           |
 |                                     |                                                                                      | * Book: :doc:`/book/installation`                                            |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | IntegrationBundle                   | Contains the abstracted logic to connect OroPlatform and                             | `IntegrationBundle`_                                                         |
-|                                     | OroCRM with third-party services and applications.                                   | * User guide: :doc:`/user_guide/common_features_channels`                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/magento_channel_integration`                 |
+|                                     | OroCRM with third-party services and applications.                                   | * User guide: :doc:`/user-guide/common_features_channels`                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/magento_channel_integration`                 |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | LayoutBundle                        |                                                                                      |                                                                              |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -139,7 +139,7 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 | MigrationBundle                     | Allows to version the application's database.                                        | * `MigrationBundle`_                                                         |
 |                                     |                                                                                      | * Book: :doc:`/book/customization`                                           |
 |                                     |                                                                                      | * Book: :doc:`/book/entities`                                                |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/entities`                                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/entities`                                    |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | NavigationBundle                    | Define menus in different bundles                                                    | * `NavigationBundle`_                                                        |
 |                                     | in YAMl files based on the `KnpMenuBundle`_.                                         | * Book: :doc:`/book/navigation`                                              |
@@ -154,10 +154,10 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 | NotificationBundle                  | Send email notifications triggered by system entities.                               | * `NotificationBundle`_                                                      |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | OrganizationBundle                  | Models the company's organization hierarchy and its business units.                  | * `OrganizationBundle`_                                                      |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_overview`                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_users`                       |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_bu`                          |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_organization`                |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_overview`                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_users`                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_bu`                          |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_organization`                |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | PlatformBundle                      | The OroPlatform core.                                                                | * `PlatformBundle`_                                                          |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -167,11 +167,11 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ReportBundle                        | Build custom reports for entities.                                                   | * `ReportBundle`_                                                            |
 |                                     |                                                                                      | * Book: :doc:`/book/reports_configuration`                                   |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/common_features_accounts`                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/b2b_customers`                               |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/leads`                                       |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/opportunities`                               |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/business_intelligence_reports`               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/common_features_accounts`                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/b2b_customers`                               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/leads`                                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/opportunities`                               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/business_intelligence_reports`               |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | RequireJSBundle                     | Integrates the `RequireJS JavaScript library`_.                                      | * `RequireJSBundle`_                                                         |
 |                                     |                                                                                      | * Book: :doc:`/book/customization`                                           |
@@ -189,9 +189,9 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 |                                     |                                                                                      | * Reference: :doc:`/reference/annotation/acl`                                |
 |                                     |                                                                                      | * Reference: :doc:`/reference/annotation/acl_ancestor`                       |
 |                                     |                                                                                      | * Reference: :doc:`/reference/format/acl`                                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_overview`                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_users`                       |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_roles`                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_overview`                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_users`                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_roles`                       |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | SegmentBundle                       | Provides entity segmentation that can be used for further processing.                | `SegmentBundle`_                                                             |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -215,7 +215,7 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 |                                     |                                                                                      | * Book: :doc:`/book/layout`                                                  |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | TrackingBundle                      | Provides the main data structure for web trackings                                   | * `TrackingBundle`_                                                          |
-|                                     | and proxies tracking data to Piwik (if enabled).                                     | * User guide: :doc:`/user_guide/marketing_tracking_website_records`          |
+|                                     | and proxies tracking data to Piwik (if enabled).                                     | * User guide: :doc:`/user-guide/marketing_tracking_website_records`          |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | TranslationBundle                   | Integration for translatable entities.                                               | * `TranslationBundle`_                                                       |
 |                                     |                                                                                      | * Book: :doc:`/book/localization`                                            |
@@ -230,23 +230,23 @@ ORO Platform is built of the generic bundles that serve as a building blocks for
 |                                     |                                                                                      | * Reference: :doc:`/reference/format/placeholders`                           |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | UserBundle                          | Provides user management functionality (authentication, authorization, etc).         | * `UserBundle`_                                                              |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_overview`                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_users`                       |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_roles`                       |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_bu`                          |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_organization`                |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/user_management_groups`                      |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_overview`                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_users`                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_roles`                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_bu`                          |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_organization`                |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/user_management_groups`                      |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | WindowsBundle                       | Consists of a set of tools for manipulating dialog windows and their states.         | * `WindowsBundle`_                                                           |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | WorkflowBundle                      | Perform a set of actions when some predefined conditions are fulfilled.              | * `WorkflowBundle`_                                                          |
 |                                     |                                                                                      | * Book: :doc:`/book/workflow`                                                |
 |                                     |                                                                                      | * Reference: :doc:`/reference/format/workflow`                               |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/b2b_customers`                               |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/leads`                                       |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/opportunities`                               |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/sales_processes_workflow`                    |
-|                                     |                                                                                      | * User guide: :doc:`/user_guide/workflow_management`                         |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/b2b_customers`                               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/leads`                                       |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/opportunities`                               |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/sales_processes_workflow`                    |
+|                                     |                                                                                      | * User guide: :doc:`/user-guide/workflow_management`                         |
 +-------------------------------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 
 
@@ -298,35 +298,35 @@ OroCRM contains all OroPlatform bundles (see the list above) and a set of CRM-sp
 | CRMCallBridgeBundle   | Basic implementation to log calls to and of contacts and accounts.                       | `CallBundle`_                                                                |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | CRMTaskBundle         | Task entity management and relations.                                                    | `TaskBundle`_                                                                |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/outlook_sync`                                |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/outlook_sync`                                |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | AccountBundle         | Management of customer account entities.                                                 | * `AccountBundle`_                                                           |
 |                       |                                                                                          | * Book: :doc:`/book/emails`                                                  |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_accounts`                    |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_contacts`                    |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_accounts`                    |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_contacts`                    |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ActivityContactBundle |                                                                                          |                                                                              |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | AnalyticsBundle       | Provides tools to analyze data and to visualize the analysis results.                    | `AnalyticsBundle`_                                                           |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | CampaignBundle        | Offers the ability to create and manage campaigns and to connect them to other entities. | `CampaignBundle`_                                                            |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/marketing_campaigns`                         |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/email_campaigns`                             |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/marketing_tracking_website_records`          |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/marketing_campaigns`                         |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/email_campaigns`                             |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/marketing_tracking_website_records`          |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | CaseBundle            | Case entitiy management.                                                                 | `CaseBundle`_                                                                |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ChannelBundle         | Brings business entities from external applications into the system.                     | `ChannelBundle`_                                                             |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_multi_channel_functionality` |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_channels`                    |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_accounts`                    |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/b2b_channels`                                |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/magento_channels`                            |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_multi_channel_functionality` |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_channels`                    |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_accounts`                    |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/b2b_channels`                                |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/magento_channels`                            |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ContactBundle         | Offers management functionality for customer contact data.                               | `ContactBundle`_                                                             |
 |                       |                                                                                          | * Book: :doc:`/book/emails`                                                  |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_contacts`                    |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/outlook_sync`                                |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_contacts`                    |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/outlook_sync`                                |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ContactUsBundle       | Embedded form and workflow for *contact us* requests.                                    | `ContactUsBundle`_                                                           |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -337,18 +337,18 @@ OroCRM contains all OroPlatform bundles (see the list above) and a set of CRM-sp
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | MagentoBundle         | Provides integration with the Magento e-commerce solution.                               | `MagentoBundle`_                                                             |
 |                       |                                                                                          | * Cookbook: :doc:`/cookbook/faq`                                             |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_multi_channel_functionality` |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/common_features_channels`                    |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/magento_channel_integration`                 |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/magento_channels`                            |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_multi_channel_functionality` |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/common_features_channels`                    |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/magento_channel_integration`                 |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/magento_channels`                            |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | MarketingListBundle   | Supports generating contact lists automatically for marketing purposes.                  | `MarketingListBundle`_                                                       |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/marketing_lists`                             |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/marketing_lists`                             |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | ReportBundle          |                                                                                          |                                                                              |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | SalesBundle           | Support for sales related workflows.                                                     | `SalesBundle`_                                                               |
-|                       |                                                                                          | * User guide: :doc:`/user_guide/sales_processes_workflow`                    |
+|                       |                                                                                          | * User guide: :doc:`/user-guide/sales_processes_workflow`                    |
 +-----------------------+------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
 | TestFrameworkBundle   | Test framework functionality and main entry point for the JS UnitTest runner.            | `TestFrameworkBundle`_                                                       |
 |                       |                                                                                          | * Book: :doc:`/book/functional_tests`                                        |

@@ -11,3 +11,5 @@ Price Lists
    view
 
    create
+
+   configure

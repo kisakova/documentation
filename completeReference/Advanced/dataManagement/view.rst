@@ -25,7 +25,7 @@ Get To a View Page
 
 There are several ways to get to a View page:
 
-- Select the relevant record in a :ref:`grid <user-guide-ui-components-grids>` (click the |IcView| icon).
+- Select the relevant record in a grid (click the |IcView| icon).
 
 - Find the records in the :ref:`Search Panel <user-guide-getting-started-search>`.
 
@@ -72,7 +72,7 @@ record.
 
 These include the ability to share a record with other users (if applicable), go to the 
 `Create/Edit form <../../../completeReference/Advanced/dataManagement/form.html>`_, delete a record, and perform different
-:ref:`activities <user-guide-activities>` related to a record (such as make a task, create a calendar event, log a call, 
+`activities <../../commonActions/actions.html>`_ related to a record (such as make a task, create a calendar event, log a call, 
 and write an email).
 
   
@@ -104,8 +104,8 @@ If there are more than four actions available for a record, they will be collect
 Review the Record History
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If the user is allowed to do this (i.e., the :ref :ref:`Data Audit capabilty <admin-capabilities-data-audit>` has been 
-enabled for at least one of the user's :ref:`roles <user-guide-user-management-permissions-basic>`, , there will be a 
+If the user is allowed to do this (i.e., the Data Audit capabilty has been 
+enabled for at least one of the user's `roles <../../System/UserManagement/roles.html>`_, there will be a 
 link to the history of operations performed with the record in the top right corner of the View page.
 
 |
@@ -153,8 +153,8 @@ Sometimes, there also appears a need to exchange information between organizatio
 countries, and sales reps of one office want to share the information to the second office.
 Such sharing is possible, but only from a system organization.
 
-(This means that a user with system-wide access should log-in to the 
-:ref:`System organization <user-ee-multi-org-system>`), access this record and share it with users in other 
+This means that a user with system-wide access should log-in to the 
+system organization (the one with global access set to yes in the organization details), access this record and share it with users in other 
 organizations.
 
 Get to Other Pages

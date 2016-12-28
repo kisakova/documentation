@@ -48,8 +48,8 @@ My Calendar
 -----------
 
 This link opens your calendar. Here you can see all the important events and tasks that have deadlines. If permitted, 
-you can also access system calendars and calendars of other users. Please refer to the
-:ref:`Calendars guide <user-guide-calendars>` to learn more about using the Calendars.
+you can also access system calendars and calendars of other users. Please see 
+`Calendar events <../Activities/Calendarevents>` and `Calendar configuration <../System/system-calendars>` to learn more about using the Calendars.
 
 Logout
 ------

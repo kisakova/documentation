@@ -178,8 +178,7 @@ The following fields are mandatory:
   "**From step** and **To step**", "A dropdown that contains the list of steps defined for the workflow. You can choose any 
   two steps and define the transition between them."
   "**View form**","When a transition is performed, a form with the entity 
-  :ref:`attributes <user-guide-workflow-designer-attributes>` appears that will be submitted to change the step.
-  Use the field, to define if this form will be displayed in a popup window or a separate page."
+  attributes appears. Use the field, to define if this form will be displayed in a popup window or a separate page."
   
 There is also a number of optional fields that can be used to modify the transition in the UI:
 
@@ -308,7 +307,7 @@ management from the UI is limited.
 
 The following actions can be performed for the system workflows:
 
-From the :ref:`grid <user-guide-ui-components-grids>`
+From the grid
 
 .. image:: /completeReference/img/System/Workflows/workflows/wf_grid_actions_system.png
 
@@ -340,7 +339,7 @@ All the actions available for the system workflows are available for the custom 
 
 The following additional action are available for the custom workflows:
 
-From the :ref:`grid <user-guide-ui-components-grids>`
+From the grid
 
 .. image:: /completeReference/img/System/Workflows/workflows/wf_grid_actions_custom.png
 

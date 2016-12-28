@@ -24,8 +24,7 @@ You can perform the following actions at the Notification Rules page:
 
 Want an administrator to get a letter when there is a request from a user? Need to notify users each time a new activity
 has been assigned to them? Prefer to drop a line to a manager, each time some customer details have been edited? 
-In OroCRM, you can specify conditions at which emails will be sent based on a pre-defined 
-:ref:`email template <user-guide-email-template>`.
+In OroCRM, you can specify conditions at which emails will be sent based on a pre-defined `email template <./templates.html>`_.
 
 
 Create a Notification Rule
@@ -65,13 +64,13 @@ The following details **must** be defined in the *"General"* section.
 Recipient list
 ^^^^^^^^^^^^^^
 The *"Recipient list"* section defines a list of user to which the email will be sent when the rule is met.
-You can define one specific :term:`user` and/or :ref:`user groups <user-management-groups>` and/or a specific 
+You can define one specific :term:`user` and/or `user groups <../UserManagement/groups.html>`_ and/or a specific 
 email address. If the *Owner* box is checked, the email will be sent to the user who is 
 assigned as an owner of the entity record, for which the event has taken place.
 
       |
 
-.. image:: completeReference/img/System/Emails/NotificationRules/notification/notification_form.png
+.. image:: /completeReference/img/System/Emails/NotificationRules/notification/notification_form.png
 
 .. hint::
 

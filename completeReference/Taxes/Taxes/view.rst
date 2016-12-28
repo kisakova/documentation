@@ -1,29 +1,33 @@
-Viewing details of Taxes
-------------------------
 
-To view all Taxes, navigate to **Taxes > Taxes** in the main menu, and click on the line with the necessary Taxes.
+View Tax Rate Details
+^^^^^^^^^^^^^^^^^^^^^
 
-Preview:
+To view a Tax Rate details: 
 
-.. image:: /completeReference/img/Taxes/Taxes/TaxesView.png
-   :class: with-border
+#. Navigate to **Taxes > Taxes** in the main menu. 
 
-Additionally, you can view the following information:
+#. Find the line with the necessary Tax Rate and click on it.
 
-+-------------+-------------+
-| Name        | Description |
-+=============+=============+
-| Code        |             |
-+-------------+-------------+
-| Description |             |
-+-------------+-------------+
-| Rate        |             |
-+-------------+-------------+
+   The following information is available immediately:
 
-You can perform the following actions at the TaxesView page:
+   * Code
 
- * Edit
+   * Decription
 
- * Delete
+   * Rate in percentage
 
+   .. image:: /completeReference/img/Taxes/Taxes/LOS_ANGELES_COUNTY_SALES_TAX_View_Taxes_Taxes.png
+      :class: with-border
 
+**Next steps**
+
+You can perform the following actions with a Tax Rate:
+
+ * `Edit a Tax Rate details <edit.html>`_: Click |IcEdit| **Edit** to the top right of the page.
+
+ * Delete a Tax Rate: Click |IcDelete| **Delete** to the top right of the page.
+
+.. finish
+
+.. include:: /include-images.rst
+   :start-after: begin

@@ -52,23 +52,21 @@ Data Grid settings
 ^^^^^^^^^^^^^^^^^^
 
 Data Grid settings define different options used to display all the 
-:ref:`entity records grids <user-guide-ui-components-grids>` in the UI.
+grids in the UI.
 
 The following options are available:
- 
+
 .. csv-table::
   :header: "Option", "Description", "Default"
   :widths: 10, 30, 10
 
-  "**Items Per Page By Default***","Defines the number of items displayed on one page of the grid by 
-  default (every time you open the grid.) You can change the number each time.","25"
-  "**Lock Headers In Grids***","Defines whether grid headers will be locked on a page during scrolling.","Enabled"
-  "**Record Pagination***","If enabled, you can navigate to previous or next item in the system when viewing item details,"Enabled"
-  "**Record Pagination Limit***","Defines a maximum number of records available for the *Record Pagination*. (If there 
-  are more records, the pagination will be disable for the grid to avoid performance deterioration) ","1000"
+  "**Items Per Page By Default**","Defines the number of items displayed on one page of the grid by default (every time you open the grid.) You can change the number each time.","25"
+  "**Lock Headers In Grids**","Defines whether grid headers will be locked on a page during scrolling.","Enabled"
+  "**Record Pagination**","If enabled, you can navigate to previous or next item in the system when viewing item details","Enabled"
+  "**Record Pagination Limit**","Defines a maximum number of records available for the *Record Pagination*. (If there are more records, the pagination will be disable for the grid to avoid performance deterioration) ","1000"
 
 Calendar settings
-^^^^^^^^^^^^^^^^^^  
+^^^^^^^^^^^^^^^^^
 
 Calendar settings specify the colors available to manage calendars in the UI:
 
@@ -105,7 +103,7 @@ This way, users can check if a report has been developed correctly.
 
 .. hint::
 
-    This link will only be available if the :ref:`View SQL query of a report/segment <admin-capabilities-view-sql>` 
+    This link will only be available if the *View SQL query of a report/segment*
     capability has been enabled for the role.
 
 

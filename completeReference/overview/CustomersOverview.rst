@@ -8,11 +8,11 @@ In a B2B selling platform, tracking the sales progress and easy integration with
 In OroCommerce, customer is a group of buyers who represent the same business organization.
 You can do the following:
 
-* Register individual buyers as `customer users </user_guide/customer/customer-users.html>`_ and assign them `roles </user_guide/customer/customer-roles-and-permissions.html>`_ that define level of permissions and access to the actions and data in OroCommerce Front.
+* Register individual buyers as `customer users </user-guide/customer/customer-users.html>`_ and assign them `roles </user-guide/customer/customer-roles-and-permissions.html>`_ that define level of permissions and access to the actions and data in OroCommerce Front.
 
-* `Assign price lists </user_guide/pricing/index.html>`_ that shall be visible to a customer buyers.
+* `Assign price lists </user-guide/pricing>`_ that shall be visible to a customer buyers.
 
-* Organize customers into `customer groups </user_guide/customer/customer-groups.html>`_ and share the price lists, payment and tax-related settings between several customers.
+* Organize customers into `customer groups </user-guide/customer/customer-groups.html>`_ and share the price lists, payment and tax-related settings between several customers.
 
 * View requests for quote, quotes, and orders made by customer users.
 

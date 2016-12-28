@@ -13,5 +13,5 @@ Once a user selects a base entity (such as “Account”), he can refine the rep
 
 **Related information**
 
-For monitoring daily, weekly, or monthly KPIs, see `Dashboards </user_guide/dashboards/index.html>`_
+For monitoring daily, weekly, or monthly KPIs, see `Dashboards </user-guide/dashboards>`_
 

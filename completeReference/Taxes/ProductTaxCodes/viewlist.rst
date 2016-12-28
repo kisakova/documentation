@@ -1,44 +1,44 @@
-Viewing and filtering all Product Tax Codes
--------------------------------------------
+View and Filter Product Tax Codes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To view all Product Tax Codes, navigate to **Taxes > Product Tax Codes** in the main menu.
 
-Preview:
-
-.. include:: /completeReference/overview/Taxes/ProductTaxCodesOverview.rst
-  :start-after: begin
-
-
-.. image:: /completeReference/img/Taxes/ProductTaxCodes/ProductTaxCodes.png
+.. image:: /completeReference/img/Taxes/ProductTaxCodes/All_ProductTaxCodes_Taxes.png
    :class: with-border
+
+.. note:: To handle big volume of data, use page switcher, increase *View Per Page* or use `filters <user-guide-ui-components-grid-filters>`_ to narrow down the list to just the codes you need.
 
 The following information about the Product Tax Codes is available in the Product Tax Codes list:
 
-+-------------+-------------+
-| Name        | Description |
-+=============+=============+
-| CODE        |             |
-+-------------+-------------+
-| DESCRIPTION |             |
-+-------------+-------------+
-| CREATED AT  |             |
-+-------------+-------------+
-| UPDATED AT  |             |
-+-------------+-------------+
++-------------+--------------------------------------------------+
+| Name        | Description                                      |
++=============+==================================================+
+| CODE        | The unique identifier of the Product Tax Code.   |
++-------------+--------------------------------------------------+
+| DESCRIPTION | Detailed description of the Product Tax Code.    |
++-------------+--------------------------------------------------+
+| CREATED AT  | Date when the Product Tax Code was created.      |
++-------------+--------------------------------------------------+
+| UPDATED AT  | Date when the Product Tax Code was updated last. |
++-------------+--------------------------------------------------+
 
 **Next steps**
 
 You can perform the following actions with every item in the Product Tax Codes list:
 
- * Edit
+ * `View a Product Tax Code details <view.html>`_: Click on the item to open its details page.
+   
+   OR
+   
+   Aternatively: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcView| to open its details page.
 
- * Delete
+ * `Edit a Product Tax Code details <edit.html>`_: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcEdit| to start editing its details.
 
- * View
+ * Delete a Product Tax Code: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcDelete| to remove the Product Tax Code.
 
+ * `Create Account Tax Code <create.html>`_: Click **Create Account Tax Code** to the top right from the list. 
 
-You can perform the following actions at the Product Tax Codes page:
+.. finish
 
- * Create Product Tax Code
-
-
+.. include:: /include-images.rst
+   :start-after: begin

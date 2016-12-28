@@ -2,7 +2,7 @@ Tracking
 --------
 
 The Tracking section specifies the settings to be applied for all the 
-:ref:`Tracking records <user-guide-marketing-tracking>` created in the system instance.
+tracking records created in the system.
 
 The following options are available:
 
@@ -25,3 +25,5 @@ The following options are available:
     be the same as the `Website ID <http://piwik.org/faq/general/faq_19212/>`_ used by Piwik.
 
 At the bottom of the form there is a link to the grid of all the Tracking Website records.
+
+.. note:: Reuse OroCRM's Tracking Websites! 

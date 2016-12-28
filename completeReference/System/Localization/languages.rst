@@ -1,7 +1,7 @@
 Viewing and filtering all Languages
 -----------------------------------
 
-To view all Languages, navigate to **System > Languages** in the main menu.
+To view all Languages, navigate to **System > Localization > Languages** in the main menu.
 
 Preview:
 
