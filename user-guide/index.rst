@@ -85,7 +85,7 @@ Here is a short checklist that will help you plan and control your OroCommerce r
     - Configure target price lists that activate depending on the factors like active website, selected currency, buyer's location, and even on the buyer's company, e.g. you might want to offer a better deals to your partners or loyal customers.
     - Set up tax calculation rules.
     - Set up payment and delivery process (payment, shipping). **LINK**
-    - Configure marketing process: (landing pages). **LINK** 
+    - Configure marketing process: `landing pages </completeReference/Marketing/LandingPages>`_, **ADD more options**.
 
 Now your OroCommerce is ready to go. 
 

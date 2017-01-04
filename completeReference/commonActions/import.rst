@@ -31,3 +31,14 @@ Related Topics
 * `Importing price information <import-price-lists.html>`_
 * `Importing inventory status <import-inventory-status.html>`_
 * `Importing inventory levels <import-inventory-levels.html>`_
+  
+.. toctree::
+   :hidden:
+
+   import-products
+
+   import-inventory-statuses
+
+   import-inventory-levels
+
+   import-price-lists

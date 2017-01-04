@@ -12,14 +12,10 @@ OroCommerce provides the following tools for streamlined communication inside an
    
    import
 
-   import-products
-
-   import-inventory-statuses
-
-   import-inventory-levels
-
-   import-price-lists
-
    calendar_events
 
    actions
+
+   manage-translations
+
+   using-WYSIWYG-text-editor

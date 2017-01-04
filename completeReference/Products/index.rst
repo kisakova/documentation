@@ -10,4 +10,8 @@ Products
 
    PriceAttributes/index
 
+   ProductFamilies/index
+
+   ProductAttributes/index
+
    Products/index

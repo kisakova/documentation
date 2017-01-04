@@ -5,6 +5,8 @@ Images
 
 .. begin
 
+.. |IcTranslate| image:: /completeReference/img/common/buttons/IcTranslate.png
+   :align: middle
 
 .. |IcDelete| image:: /completeReference/img/common/buttons/IcDelete.png
    :align: middle
