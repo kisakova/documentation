@@ -1,5 +1,3 @@
-.. header:: any navigation?
-
 Welcome to OroCommerce Documentation
 ====================================
 
