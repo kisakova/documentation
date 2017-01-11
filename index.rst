@@ -121,7 +121,7 @@ This section provides links to additional information that delivers role-specifi
 Release notes and announcements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* `Jan 5, 2017 - OroCommerce RC1 released <./release-notes/rc1.html>`_
+* `Jan 5, 2017 - OroCommerce RC1 released <./current/release-notes/rc1.html>`_
 
 .. toctree::
     :hidden:
