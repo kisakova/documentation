@@ -79,28 +79,31 @@ This section provides links to additional information that delivers role-specifi
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
       <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: middle;">
+         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: center;">
             <a href="./current/guides-by-role">
                <img align="middle" alt="_images/book.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/book-1.png" style="width:30px">
                <br>
                <h3>Announcements</h3>
             </a>
           <div>
+          <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: left;">
           <p>
              <ul>
                 <li><a href="./current/release-notes/rc1">Jan xx, 2017 - Meet OroCommerce v1.0</a></li>
                 <li><a href="./current/release-notes/rc1">Jan 5, 2017 - OroCommerce RC1 released</a></li>
              </ul>
           </p>
+          </div>
       </div>
       <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: middle;">
+         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: center;">
             <a href="./current/community">
                <img alt="_images/help.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px">
                <br>
                <h3>Support</h3></a>
             </a>
           <div>
+          <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: left;">
           <p>
              <ul>
                 <li><a href="./current/community/issues/issue">Report an Issue</b></a></li>
@@ -109,14 +112,16 @@ This section provides links to additional information that delivers role-specifi
                 <li><a href="./current/community/issues/documentation">Report Documentation Issue</a></li>
              </ul>
           </p>
+          /div>
       </div>
       <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: middle;">
+         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: center;">
             <a href="./current/community">
                <img alt="_images/contrib.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px">
                <br>
                <h3>Contributing</h3></a>
          <div>
+         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: left;">
          <p>
              <ul>
                        <li><a href="./current/community/contribute">Source Code</a></li>
@@ -124,6 +129,7 @@ This section provides links to additional information that delivers role-specifi
                        <li><a href="./current/community/write">Documentation</a></li>
               </ul>
          </p>
+         </div>
       </div>
    </div>
    <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
