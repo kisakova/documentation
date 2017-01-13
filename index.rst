@@ -79,30 +79,30 @@ This section provides links to additional information that delivers role-specifi
 
    <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
       <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
-         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: center;">
-            <a href="./current/guides-by-role">
+         <div style="text-align: center;">
+            <a href="release-notes">
                <img align="middle" alt="_images/book.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/book-1.png" style="width:30px">
                <br>
                <h3>Announcements</h3>
             </a>
-          <div>
+          </div>
           <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: left;">
           <p>
              <ul>
-                <li><a href="./current/release-notes/rc1">Jan xx, 2017 - Meet OroCommerce v1.0</a></li>
-                <li><a href="./current/release-notes/rc1">Jan 5, 2017 - OroCommerce RC1 released</a></li>
+                <li><a href="release-notes/rc1">Jan xx, 2017 - Meet OroCommerce v1.0</a></li>
+                <li><a href="release-notes/rc1">Jan 5, 2017 - OroCommerce RC1 released</a></li>
              </ul>
           </p>
           </div>
       </div>
       <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: center;">
-            <a href="./current/community">
+         <div style="text-align: center;">
+            <a href="community">
                <img alt="_images/help.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px">
                <br>
                <h3>Support</h3></a>
             </a>
-          <div>
+          </div>
           <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: left;">
           <p>
              <ul>
@@ -112,33 +112,25 @@ This section provides links to additional information that delivers role-specifi
                 <li><a href="./current/community/issues/documentation">Report Documentation Issue</a></li>
              </ul>
           </p>
-          /div>
+          </div>
       </div>
       <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
-         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: center;">
-            <a href="./current/community">
+         <div style="text-align: center;">
+            <a href="community">
                <img alt="_images/contrib.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px">
                <br>
                <h3>Contributing</h3></a>
-         <div>
+         </div>
          <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: left;">
          <p>
              <ul>
-                       <li><a href="./current/community/contribute">Source Code</a></li>
-                       <li><a href="./current/community/translations">Translation</a></li>
-                       <li><a href="./current/community/write">Documentation</a></li>
+                       <li><a href="community/contribute">Source Code</a></li>
+                       <li><a href="community/translations">Translation</a></li>
+                       <li><a href="community/write">Documentation</a></li>
               </ul>
          </p>
          </div>
       </div>
-   </div>
-   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
-   <h3><a class="reference external" href="community">Support and Contribution</a></h3>
-   <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="community/contributing">source code</a>, <a class="reference external" href="community/translations">translation</a>, and <a class="reference external" href="community/contributing#improving-documentation">documentation</a></p>
-   </div>
-   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
-   <h3><a class="reference external" href="reference">Reference</a></h3>
-   <p>This section contains annotation and configuration format reference. </p>
    </div>
 
 .. toctree::
