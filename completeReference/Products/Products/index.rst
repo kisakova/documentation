@@ -10,6 +10,8 @@ Products
 
    view
 
+   create
+
    managing-product-visibility
 
    product-units-and-precision

@@ -1,4 +1,0 @@
-Commerce Configuration Guide
-----------------------------
-
-.. begin

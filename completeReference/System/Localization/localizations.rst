@@ -1,13 +1,13 @@
-Viewing and filtering all Localizations
----------------------------------------
-
-To view all Localizations, navigate to **System > Localizations** in the main menu.
-
-Preview:
+Localizations
+-------------
 
 .. include:: /completeReference/overview/System/Localization/LocalizationsOverview.rst
   :start-after: begin
 
+
+To view all Localizations, navigate to **System > Localizations** in the main menu.
+
+Preview:
 
 .. image:: /completeReference/img/System/Localization/Localizations.png
    :class: with-border
@@ -40,29 +40,7 @@ You can perform the following actions with every item in the Localizations list:
 
  * View
 
- * Edit
-
- * View
-
- * Edit
-
- * View
-
- * Edit
-
- * View
-
- * Edit
-
- * View
-
- * Edit
-
- * View
-
 
 You can perform the following actions at the Localizations page:
 
  * Create Localization
-
-

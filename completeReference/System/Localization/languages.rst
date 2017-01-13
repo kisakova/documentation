@@ -1,14 +1,12 @@
-Viewing and filtering all Languages
------------------------------------
-
-To view all Languages, navigate to **System > Localization > Languages** in the main menu.
-
-Preview:
+Languages
+---------
 
 .. include:: /completeReference/overview/System/Localization/LanguagesOverview.rst
   :start-after: begin
 
+To view all Languages, navigate to **System > Localization > Languages** in the main menu.
 
+Preview:
 
 .. image:: /completeReference/img/System/Localization/Languages.png
    :class: with-border

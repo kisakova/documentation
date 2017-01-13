@@ -8,6 +8,6 @@ Customers
 
    viewlist
 
-   view
-
    create
+
+   organize

@@ -28,5 +28,5 @@ Taxes
 
    international-taxes-overview
    
-   Taxes in the customer order <../../guides-by-role/buyer-guide/taxes>
+..   Taxes in the customer order <../../guides-by-role/buyer-guide/taxes>
 

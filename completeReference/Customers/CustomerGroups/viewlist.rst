@@ -3,11 +3,10 @@ Viewing and filtering all Customer Groups
 
 To view all Customer Groups, navigate to **Customers > Customer Groups** in the main menu.
 
-Preview:
-
 .. include:: /completeReference/overview/Customers/CustomerGroupsOverview.rst
   :start-after: begin
 
+Preview:
 
 .. image:: /completeReference/img/Customers/CustomerGroups/CustomerGroups.png
    :class: with-border
@@ -23,20 +22,21 @@ The following information about the Customer Groups is available in the Customer
 +--------------+-------------+
 | PAYMENT TERM |             |
 +--------------+-------------+
-
+   
 **Next steps**
 
-You can perform the following actions with every item in the Customer Groups list:
+You can perform the following actions with every item in the Customers list:
+   
+  * `View a Customer Group details <view>`_: Click on the item to open its details page.
+   
+   OR
+   
+   Aternatively: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcView| to open its details page.
 
- * View
+ * `Edit a Customer Group details <edit>`_: Hover over the |IcMore| *more actions* menu to the right of the item and click the |IcEdit| to start editing its details.
 
- * Edit
+You can perform the following actions at the Customer User Roles page:
 
- * Delete
-
-
-You can perform the following actions at the Customer Groups page:
-
- * Create Customer Group
+ * `Create Customer Group <./create>`_
 
 

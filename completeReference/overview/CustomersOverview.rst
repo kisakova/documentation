@@ -3,17 +3,14 @@ Overview
 
 .. begin
 
-In a B2B selling platform, tracking the sales progress and easy integration with the CRM system is a must have option. As OroCommerce is bundled with OroCRM, tracing the purchases of the company and company groups may be helpful for planning future sales and segmenting the existing ones.
+In OroCommerce terminology, customers are companies who buy your products using OroCommerce front store.
 
-In OroCommerce, customer is a group of buyers who represent the same business organization.
-You can do the following:
+Customer users act on behalf of the company and may have a limited set of permissions in OroCommerce, depending on their function in the customer organization. You can manage customer users and roles in the OroCommerce administration interface (see `Managing Customer Users <../../completeReference/Customers/CustomerUsers>`_ and `Managing Customer Roles <../../completeReference/Customers/CustomerUserRoles>`_ for more information), or you can delegate this function to the customer who will access user and role management in the OroCommmerce front store (see `Delegating Users and Role Management to the Customer <../../completeReference/Customers/delegate>`_ for more information).
 
-* Register individual buyers as `customer users </user-guide/customer/customer-users.html>`_ and assign them `roles </user-guide/customer/customer-roles-and-permissions.html>`_ that define level of permissions and access to the actions and data in OroCommerce Front.
+You can assign dedicated sales representatives to support the company purchase process. They can `assign custom price lists <../../user-guide/pricing>`_ that are visible to a customer users on the OroCommerce web front instead of the standard prices enabled generally. Assinged sales people can assist with requests for quote, quotes, and orders made by customer users. Sales people can `add notes <../../completeReference/commonActions/add-notes>`_ and `attachments <../../completeReference/commonActions/add-attachments>`_ to share additional information about the customer, their needs or any related information.
 
-* `Assign price lists </user-guide/pricing>`_ that shall be visible to a customer buyers.
+You can set specific payment term that matches the payment terms agreement with the company, and label with a tax code that impacts the method of tax calculation in the customer order (e.g. a special tax code should be used for tax-excempt companies, to discard any tax during the chackout). For more information, please see `Managing Customers <../../completeReference/Customers/Customers>`_ section. 
 
-* Organize customers into `customer groups </user-guide/customer/customer-groups.html>`_ and share the price lists, payment and tax-related settings between several customers.
+When several divisions of a company are using OroCommerce, you can organize them into the two lever organization structure using the parent customer option. Parent company aggregates information from its children, which may be convenient for monitoring and controlling divisions activities. For more information, please see `Managing Customer Hierarchy <../../completeReference/Customers/Customers/organize>`_ section. 
 
-* View requests for quote, quotes, and orders made by customer users.
-
-* Add notes and attachments to communicate information about the customer that is important for customer configuration.
+Companies may be organized into groups to simpify sharing configuration, payment and tax-related settings, and price lists among multiple customers, for example those with the same service level. See `Managing Customer Groups <../../completeReference/Customers/CustomerGroups>`_ for more information.

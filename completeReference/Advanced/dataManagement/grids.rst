@@ -32,7 +32,7 @@ There are several ways to get to a grid.
   
 - Find it in the :ref:`Shortcuts <user-guide-getting-started-shortcuts>`.
 
-- Click "All ..." (e.g. All Prodcuts) link `viewing`_, `creating or editing <../../../completeReference/Advanced/dataManagement/form.html>`_ a record. 
+- Click "All ..." (e.g. All Products) link `viewing`_, `creating or editing <../../../completeReference/Advanced/dataManagement/form.html>`_ a record. 
 
 .. _view: view.html
 

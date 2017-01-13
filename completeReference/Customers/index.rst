@@ -13,3 +13,5 @@ Customers
    CustomerUsers/index
 
    Customers/index
+
+   delegate

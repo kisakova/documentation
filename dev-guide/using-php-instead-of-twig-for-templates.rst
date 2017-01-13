@@ -1,4 +1,3 @@
-
 Using PHP instead of Twig for templates
 =======================================
 

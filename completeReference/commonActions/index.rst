@@ -16,6 +16,6 @@ OroCommerce provides the following tools for streamlined communication inside an
 
    actions
 
-   manage-translations
+   manage-translation
 
    using-WYSIWYG-text-editor

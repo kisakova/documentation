@@ -9,7 +9,7 @@ Preview:
   :start-after: begin
 
 
-.. image:: //completeReference/img/System/SystemCalendars/SystemCalendars.png
+.. .. image:: //completeReference/img/System/SystemCalendars/SystemCalendars.png
    :class: with-border
 
 You can perform the following actions at the System Calendars page:

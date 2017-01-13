@@ -8,8 +8,7 @@ Preview:
 .. include:: /completeReference/overview/Products/ProductFamiliesOverview.rst
   :start-after: begin
 
-
-.. image:: /completeReference/img/Products/ProductFamilies/ProductFamilies.png
+.. image:: /completeReference/img/Products/ProductFamilies/ProductAttributeFamilies.png
    :class: with-border
 
 The following information about the Product Families is available in the Product Families list:

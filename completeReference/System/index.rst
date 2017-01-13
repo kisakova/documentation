@@ -6,6 +6,7 @@ System
 
 .. toctree::
    :titlesonly:
+   :maxdepth: 2
 
    Configuration/index
 

@@ -1,4 +1,4 @@
-Linking a tax code to a customer or customer group
+Linking a Tax Code to a Customer or Customer Group
 ==================================================
 
 .. image:: /completeReference/img/Taxes/taxes_from_account_view/AccountTaxCode_view.png

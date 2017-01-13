@@ -8,6 +8,4 @@ Customer Users
 
    viewlist
 
-   view
-
    create

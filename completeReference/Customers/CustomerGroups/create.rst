@@ -1,46 +1,29 @@
 Creating Customer Groups
 ------------------------
 
-To create a new Customer Groups, navigate to **Customers > Customer Groups** in the main menu and click **Create Customer Groups**.
+To create a new Customer Groups:
 
-Preview:
+#. Navigate to **Customers > Customer Groups** in the main menu.
 
-.. image:: /completeReference/img/Customers/CustomerGroups/CustomerGroupsCreate.png
-   :class: with-border
+#. Click **Create Customer Groups**.
 
-The following information about the Customer GroupsCreate is available in the Customer GroupsCreate list:
+   The following page opens:
 
-+-----------------+-------------+
-| Name            | Description |
-+=================+=============+
-| HAS GROUP       |             |
-+-----------------+-------------+
-| NAME            |             |
-+-----------------+-------------+
-| PARENT CUSTOMER |             |
-+-----------------+-------------+
+   .. image:: /completeReference/img/Customers/CustomerGroups/CustomerGroupsCreate.png
+      :class: with-border
 
-**Next steps**
+#. Fill in customer **Name**.
 
-You can perform the following actions with every item in the Customer GroupsCreate list:
+#. Select **Tax Code** that will label the customer group taxation schema. See `Linking a Tax Code to a Customer or Customer Group <./../../Taxes/link-a-tax-code-to-a-customer>`_ for more information.
 
- * View
+#. In the *Additional* section, select a Payment term to be used as a payment option available to the customer users during on the checkout.
 
- * View
+#. In the *Customers* section, check the customers to add them to the customer group. 
 
- * View
+#. In the **Price Lists** section as described in `Price List Management for a Customer Group <./pricelist>`_ section.
 
- * View
+#. Click **Save** on the top right of the page.
 
- * View
+The new Customer Group is created.
 
- * View
-
-
-You can perform the following actions at the Customer GroupsCreate page:
-
- * Cancel
-
- * Save And Close
-
-
+.. finish

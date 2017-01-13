@@ -6,7 +6,7 @@ Managing General Setup
 
    applicationSettings
 
-   localizationSettings
+   localization
 
    languageSettings
 

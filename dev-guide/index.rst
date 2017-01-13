@@ -1,14 +1,6 @@
 Developer Guide
 ===============
 
-.. toctree::
-
-    customizing-crud
-
-    customizing-data-grid-in-orocommerce
-
-    using-php-instead-of-twig-for-templates
-
 .. note:: Content is temporary unavailable due to severe maintenance works. Sorry for inconvenience.
 
 Future structure:
@@ -19,15 +11,15 @@ Future structure:
         * Installation
         * Recommended developer environment setup
     * Create an extension
-        Entities
-        CRUD pages
-        Publish your extension on the marketplace
+        * Entities
+        * CRUD pages
+        * Publish your extension on the marketplace
     * Create a custom theme
-        Layout overview
-        (needs a better name, duplicates the parent) Create a custom theme
-        Customize product view
-        Customize homepage
-        Publish your theme on the marketplace
+        * Layout overview (needs a better name, duplicates the parent)
+        * Create a custom theme
+        * Customize product view
+        * Customize homepage
+        * Publish your theme on the marketplace
     * Contributions
         * Bug reports
         * Pull requests (contributing features)
@@ -42,8 +34,16 @@ Future structure:
         * On-demand training
         * Contact us and partners
         * OroCloud customers
-          
 
-Potentially useful topics:
+.. Potentially useful topics composer: vendor docs + http://www.masterzendframework.com/series/tooling/composer/command-line-essentials/
 
-composer: vendor docs + http://www.masterzendframework.com/series/tooling/composer/command-line-essentials/
+.. toctree::
+   :maxdepth: 1
+
+   customizing-crud
+
+   customizing-data-grid-in-orocommerce
+
+   using-php-instead-of-twig-for-templates
+
+   ../shared/customizing-import-export

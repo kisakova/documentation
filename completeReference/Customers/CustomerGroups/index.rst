@@ -8,6 +8,6 @@ Customer Groups
 
    viewlist
 
-   view
-
    create
+
+   pricelist

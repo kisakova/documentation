@@ -1,6 +1,8 @@
 Configuration
 -------------
 
+.. begin
+
 To view OroCommerce Configuration, navigate to **System > Configuration** in the main menu.
 
 .. include:: /completeReference/overview/System/ConfigurationOverview.rst

@@ -1,4 +1,4 @@
-Customizing CRUD pages in OroCommerce
-=====================================
+Customizing CRUD pages
+======================
 
 https://www.orocommerce.com/blog/customizing-crud-orocommerce

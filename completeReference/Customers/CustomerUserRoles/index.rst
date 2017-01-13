@@ -8,6 +8,4 @@ Customer User Roles
 
    viewlist
 
-   view
-
    create
