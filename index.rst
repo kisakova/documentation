@@ -1,10 +1,10 @@
-Welcome to OroCommerce Documentation
-------------------------------------
+Welcome to OroCommerce Documentation Portal
+===========================================
 
 OroCommerce is an open-source Business to Business eCommerce application built with flexibility in mind and with most comprehensive set of features - corporate accounts, multiple organizations, websites and stores, high-performance content management system (CMS), personalized catalog management, multiple and customized price lists for your sales organization and multiple shppoing lists for your buyer's organization - available out of the box.
 
 Quick Start
-^^^^^^^^^^^
+-----------
 
 This section provides links to the online documentation for the latest OroCommerce release.
 
@@ -71,48 +71,69 @@ This section provides links to the online documentation for the latest OroCommer
     </table>
 
 Support and Contribution
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 This section provides links to additional information that delivers role-specific guidance and best practice scenarios of using OroCommerce for B2B sales to small and medium businesses, and large enterprise customers.
 
-.. raw:: HTML
+.. raw:: html
 
-    <table class="no-border" border="0px" style="width:100%">
-        <colgroup>
-            <col width="33%" />
-            <col width="34%" />
-            <col width="33%" />
-        </colgroup>
-        <tbody valign="top">
-            <tr class="row-even">
-                <td style='text-align:center;vertical-align:bottom;border:0'><a href="./current/guides-by-role"><img alt="_images/book.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/book-1.png" style="width:30px"><br><h4>Announcements</h4></a></td>
-                <td style='text-align:center;vertical-align:bottom;border:0'><a href="./current/community"><img alt="_images/help.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px"><br><h4>Support</h4></a></td>
-                <td style='text-align:center;vertical-align:bottom;border:0'><a href="./current/community"><img alt="_images/contrib.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px"><br><h4>Contributing</h4></a></td>
-            </tr>
-    <tr><td style='text-align:center;vertical-align:bottom;border:0'>&nbsp;</td><td style='text-align:center;vertical-align:bottom;border:0'>&nbsp;</td><td style='text-align:center;vertical-align:bottom;border:0'>&nbsp;</td></tr>
-            <tr class="row-even">
-                <td style='text-align:left;vertical-align:top;border:0'>
-                    <ul>
-                        <li><a href="./current/release-notes/rc1">Jan xx, 2017 - Meet OroCommerce v1.0</a></li>
-                        <li><a href="./current/release-notes/rc1">Jan 5, 2017 - OroCommerce RC1 released</a></li>
-                    </ul>
-                </td>
-                <td style='text-align:left;vertical-align:top;border:0'>
-                    <ul><li><a href="./current/community/issues/issue">Report an Issue</b></a></li>
-                             <li><a href="./current/community/issues/security">Report Security Issue</b></a></li>
-                             <li><a href="./current/community/issues/translation">Report Translation Issue</a></li>
-                             <li><a href="./current/community/issues/documentation">Report Documentation Issue</a></li></ul>
-                </td>
-                <td style='text-align:left;vertical-align:top;border:0'>
-                    <ul>
+   <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%;">
+      <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">   
+         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: middle;">
+            <a href="./current/guides-by-role">
+               <img align="middle" alt="_images/book.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/book-1.png" style="width:30px">
+               <br>
+               <h3>Announcements</h3>
+            </a>
+          <div>
+          <p>
+             <ul>
+                <li><a href="./current/release-notes/rc1">Jan xx, 2017 - Meet OroCommerce v1.0</a></li>
+                <li><a href="./current/release-notes/rc1">Jan 5, 2017 - OroCommerce RC1 released</a></li>
+             </ul>
+          </p>
+      </div>
+      <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
+         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: middle;">
+            <a href="./current/community">
+               <img alt="_images/help.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px">
+               <br>
+               <h3>Support</h3></a>
+            </a>
+          <div>
+          <p>
+             <ul>
+                <li><a href="./current/community/issues/issue">Report an Issue</b></a></li>
+                <li><a href="./current/community/issues/security">Report Security Issue</b></a></li>
+                <li><a href="./current/community/issues/translation">Report Translation Issue</a></li>
+                <li><a href="./current/community/issues/documentation">Report Documentation Issue</a></li>
+             </ul>
+          </p>
+      </div>
+      <div style="float: left;width: 33.3%;padding-right: 10px;height: 100%;">
+         <div style="overflow: hidden;margin: 0 auto;width: 100%; height:100%; text-align: middle;">
+            <a href="./current/community">
+               <img alt="_images/contrib.png" src="https://orocommerce.oro-community.intra.orocrm.com/wp-content/uploads/sites/3/2016/12/contrib-1.png" style="width:30px">
+               <br>
+               <h3>Contributing</h3></a>
+         <div>
+         <p>
+             <ul>
                        <li><a href="./current/community/contribute">Source Code</a></li>
                        <li><a href="./current/community/translations">Translation</a></li>
                        <li><a href="./current/community/write">Documentation</a></li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+              </ul>
+         </p>
+      </div>
+   </div>
+   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
+   <h3><a class="reference external" href="community">Support and Contribution</a></h3>
+   <p>Join Oro community and contribute to the open-source OroCRM Community Edition. The OroCRM Community Guide provides information, best practices and conventions for contributing into the OroCommerce <a class="reference external" href="community/contributing">source code</a>, <a class="reference external" href="community/translations">translation</a>, and <a class="reference external" href="community/contributing#improving-documentation">documentation</a></p>
+   </div>
+   <div style="float: none;margin: 0 auto;width: 100%; height:100%;">
+   <h3><a class="reference external" href="reference">Reference</a></h3>
+   <p>This section contains annotation and configuration format reference. </p>
+   </div>
 
 .. toctree::
     :hidden:
