@@ -44,3 +44,8 @@ You can perform the following actions with every item in the Customers list:
 You can perform the following actions at the Customer User Roles page:
 
  * `Create Customer <./create>`_
+
+.. finish
+
+.. include:: /include-images.rst
+   :start-after: begin

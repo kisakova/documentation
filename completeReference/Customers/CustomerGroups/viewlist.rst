@@ -39,4 +39,7 @@ You can perform the following actions at the Customer User Roles page:
 
  * `Create Customer Group <./create>`_
 
+.. finish
 
+.. include:: /include-images.rst
+   :start-after: begin
