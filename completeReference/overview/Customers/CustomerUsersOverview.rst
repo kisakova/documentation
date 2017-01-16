@@ -5,7 +5,7 @@ Overview
 
 Customer users act on behalf of the company and may have a limited set of permissions in OroCommerce, depending on their function in the customer organization.
 
-For customer user management, navigate to the **Cutomers > Customer Users** in the main menu.
+For customer user management, navigate to the **Customers > Customer Users** in the main menu.
 
 In Customer Users section, you can:
 
@@ -28,6 +28,6 @@ In Customer Users section, you can:
 .. note:: You can delegate this function to the customer who will access user and role management in the OroCommmerce front store (see `Delegating Users and Role Management to the Customer </completeReference/Customers/delegate>`_ for more information).
 
 Customer Account confirmation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Upon registeration, customer user receives an email confirmation request. Once they follow up with the requested action, their account is marked as confirmed.
